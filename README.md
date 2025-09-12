@@ -19,6 +19,7 @@ Activation = EndFrame
 Description = Player will be able to fire their weapon's every frame.
 30127DA0 0000
 
+
 (-2 bytes from each of these addresses, of type byte set to 255 as well)
 [test ai rapid fire]
 Type = Gameshark
@@ -30,4 +31,13 @@ Activation = EndFrame
 9018B800 FFFFFFFF
 9018BA00 FFFFFFFF
 9018BC00 FFFFFFFF
+9018EF48 FFFFFFFF
+9018F148 FFFFFFFF
 ```
+
+# AI structure?
+
+Example:
+- Last Fire Timestamp/TickID: 018B000
+- AMMO +14(HEX) offset from fire timestamp
+- Bullets To Fire In Current Burst + 1D
