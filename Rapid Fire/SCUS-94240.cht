@@ -1,0 +1,5 @@
+[Rapid Fire]
+Type = Gameshark
+Activation = EndFrame
+Description = Player is able to shoot their guns my faster than normal, doesn't work with grenades, & air taser.
+30127DA0 0000
