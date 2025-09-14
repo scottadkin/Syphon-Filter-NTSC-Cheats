@@ -35,9 +35,38 @@ Activation = EndFrame
 9018F148 FFFFFFFF
 ```
 
+# Weapon Ids
+01 - Silenced 9MM
+02 - 9MM
+03 - 
+04 - 45
+05 - G18
+06 - Combat Shotgun
+07 - Shotgun
+08 - PK102
+09 -
+0A - BIZ-2
+0B - HK5
+0C - Nightvision Sniper Rifle
+0D - Sniper Rifle
+0E - Air Taser
+0F -
+10 - M79
+11 - K3G4
+12 - Viral Scanner
+13 - Grenades
+14 - Gas Grenades
+15 - Flashlight
+16 -
+17 -
+18 - C4
+19 - Antigen
+
 # First Load & Retry AI Weapon ID Notes
 - Georgia Street, addresses same distance apart but on retry they are 396 bytes before the first try address.
 - First Try +1AA204, retry +1AA078
+
+
 
 # AI structure?
 
