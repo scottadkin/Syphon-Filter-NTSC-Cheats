@@ -44,7 +44,7 @@ Activation = EndFrame
 06 - Combat Shotgun
 07 - Shotgun
 08 - PK102
-09 -
+09 - M16
 0A - BIZ-2
 0B - HK5
 0C - Nightvision Sniper Rifle
