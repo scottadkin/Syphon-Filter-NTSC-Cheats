@@ -35,6 +35,10 @@ Activation = EndFrame
 9018F148 FFFFFFFF
 ```
 
+# First Load & Retry AI Weapon ID Notes
+- Georgia Street, addresses same distance apart but on retry they are 396 bytes before the first try address.
+- First Try +1AA204, retry +1AA078
+
 # AI structure?
 
 Example:
