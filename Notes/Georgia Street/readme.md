@@ -1,37 +1,3 @@
-# Ai Weapon Offsets (Reloads Only, 2 still missing)
-```
-+1ADAA8
-+1AD978
-+1AA700
-+1AA74C
-+1AA584
-+1ADA5C
-+1ADA10
-+1AA960
-+1AA538
-+1AA61C
-+1AD9C4
-+1AA914
-+1AA8C8
-+1AA87C
-+1AA9AC
-+1AA830
-+1AA078
-+1AA240
-+1AA1F4
-+1AA15C
-+1AA1A8
-+1AA28C
-+1AA324
-+1AA3BC
-+1AA370
-+1AA408
-+1AA454
-+1AA0C4
-+1AA4A0
-+1AA668
-+1AA6B4
-```
 
 # Ai Weapon Offsets First Load Only
 ```
@@ -67,6 +33,45 @@
 +1AA250
 +1AA88C
 ```
+
+-396 bytes from first load
+# Ai Weapon Offsets (Reloads Only)
+```
++1ADAA8
++1AD978
++1AA700
++1AA74C
++1AA584
++1ADA5C
++1ADA10
++1AA960
++1AA538
++1AA61C
++1AD9C4
++1AA914
++1AA8C8
++1AA87C
++1AA9AC
++1AA830
++1AA078
++1AA240
++1AA1F4
++1AA15C
++1AA1A8
++1AA28C
++1AA324
++1AA3BC
++1AA370
++1AA408
++1AA454
++1AA0C4
++1AA4A0
++1AA668
++1AA6B4
+```
+
+
+
 
 # AI Last Fire Timestamp(First Load Only)
 ```

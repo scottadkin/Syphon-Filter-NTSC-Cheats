@@ -36,6 +36,7 @@ Activation = EndFrame
 ```
 
 # Weapon Ids
+```
 01 - Silenced 9MM
 02 - 9MM
 03 - 
@@ -61,6 +62,7 @@ Activation = EndFrame
 17 -
 18 - C4
 19 - Antigen
+```
 
 # First Load & Retry AI Weapon ID Notes
 - Georgia Street, addresses same distance apart but on retry they are 396 bytes before the first try address.
