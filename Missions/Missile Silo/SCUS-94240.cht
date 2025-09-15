@@ -1,0 +1,25 @@
+; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
+
+[Missile Silo (Retries) Give NPC Combat Shotgun]
+Type = Gameshark
+Activation = EndFrame
+Description = Set weapons to combat shotgun.
+301ad4f4 06
+301ad540 06
+301ad58c 06
+301ad5d8 06
+301ad624 06
+301ad670 06
+301ad6bc 06
+301ad708 06
+301ad754 06
+301ad7a0 06
+301ad7ec 06
+301ad838 06
+301ad884 06
+301ad8d0 06
+301ae88c 06
+301ae8d8 06
+301ae924 06
+301ae970 06
+301ae9bc 06
