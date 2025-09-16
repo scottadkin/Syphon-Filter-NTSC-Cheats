@@ -70,6 +70,36 @@ Activation = EndFrame
 - Missile Silo, addresses same distance apart but on retry they are 272 bytes before the first try address.
 - First Try +01AD994, retry +01AD884
 
+# Mission Index Byte
+- +0116474
+
+
+# Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)
+Memory offset +01164A8
+- Georgia Street, First Load = 32, reload = 88
+- Destroyed Subway, First Load = 48, reload = 88
+- Main Subway Line, First Load = 112, reload = 56
+- Washington Park, First Load = 240, reload = 216
+- Freedom Memorial, First Load = 112, reload = 56
+- Expo Center Reception, First Load = 72, reload = 224
+- Expo Center Dinorama, First Load = 240, reload = 104 
+- Rhoemer's Base, First Load = 240, reload = 104
+- Base Bunker, First Load = 208, reload = 152
+- Base Tower, First Load = 48, reload = 152
+- Base Escape, First Load = 8, reload = 176
+- Rhoemer's Stronghold, First Load = 104, reload = 48
+- Stronghold Lower Level, First Load = 216, reload = 16
+- Stronghold Catacombs, First Load = 136, reload = 128
+- Pharcom Warehouses, First Load = 24, reload = 200
+- Pharcom Elite Guards, First Load = 232, reload = 176
+- Warehouse 76, First Load = 88, reload = 184
+- Silo Access Tunnels, First Load = 208, reload = 152
+- Tunnel Blackout, First Load = 40, reload = 40.....................
+- Missile Silo, First Load = 112, reload = 232
+
+
+
+
 
 
 # AI structure?

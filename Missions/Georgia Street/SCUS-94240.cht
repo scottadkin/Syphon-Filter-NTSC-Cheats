@@ -269,10 +269,10 @@ E01ADA5C 02
 E01ADAA8 02
 801ADAA8 07
 
-[Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
+[FIRST LOAD Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
 Type = Gameshark
 Activation = EndFrame
-Description = Set weapons to combat shotgun.
+Description = Description here.
 9018b000 FFFFFFFF
 3018b014 FF
 3018b01d FF
@@ -355,10 +355,11 @@ Description = Set weapons to combat shotgun.
 30193b28 FF
 30193b31 FF
 
-[RELOAD TEST Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
+
+[RETRY Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
 Type = Gameshark
 Activation = EndFrame
-Description = Set weapons to combat shotgun.
+Description = Description here.
 9018ae74 FFFFFFFF
 3018ae88 FF
 3018ae91 FF
