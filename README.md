@@ -76,7 +76,7 @@ Activation = EndFrame
 
 # Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)
 Memory offset +01164A8
-- Georgia Street, First Load = 32, reload = 88
+- Georgia Street, First Load = 32(0x20), reload = 88(0x58)
 - Destroyed Subway, First Load = 48, reload = 88
 - Main Subway Line, First Load = 112, reload = 56
 - Washington Park, First Load = 240, reload = 216
