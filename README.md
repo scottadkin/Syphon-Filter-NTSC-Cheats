@@ -67,10 +67,12 @@ Activation = EndFrame
 # First Load & Retry AI Weapon ID Notes
 - Georgia Street, addresses same distance apart but on retry they are 396 bytes before the first try address.
 - First Try +1AA204, retry +1AA078
+- Destroyed Subway 1468 before first try address.
+- First Try +1A351C, retry +1A2F60
 - Pharcom Warehouses, addresses same distance apart but on retry they are 1696 bytes before the first try address.
-- First Try +1AC6F8, retry +01AC058
+- First Try +1AC6F8, retry +1AC058
 - Missile Silo, addresses same distance apart but on retry they are 272 bytes before the first try address.
-- First Try +01AD994, retry +01AD884
+- First Try +1AD994, retry +1AD884
 
 # Mission Index Byte
 - +0116474
