@@ -43,7 +43,7 @@ E01164A8 38
 E0116474 02
 30148A98 01
 
-[Main Subway Line Allow Explosivies]
+[Main Subway Line Allow Explosives]
 Type = Gameshark
 Activation = EndFrame
 Description =  Explosives will no longer instantly fail the mission.
