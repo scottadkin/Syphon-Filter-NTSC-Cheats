@@ -1,0 +1,8 @@
+; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
+
+[Girdeux Instant Fire Weapon - Freedom Memorial]
+Type = Gameshark
+Activation = EndFrame
+Description = Give All NPCS M79.
+E0116474 04
+9011CFCC 00000000
