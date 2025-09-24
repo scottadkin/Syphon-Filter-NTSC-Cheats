@@ -77,6 +77,8 @@ Activation = EndFrame
 - First Try +1AE724, retry +1AE454 (based on last addresses)
 - Expo Center Dinorama, addresses same distance apart but on retry they are 1304 bytes before the first try address.
 - First Try +1AA5A8, retry +1AA090
+- Rhoemers base, addresses same distance apart but on retry they are 1288 bytes before the first try address.
+- First Try +1A9D70, retry +1A9868
 - Pharcom Warehouses, addresses same distance apart but on retry they are 1696 bytes before the first try address.
 - First Try +1AC6F8, retry +1AC058
 - Missile Silo, addresses same distance apart but on retry they are 272 bytes before the first try address.
