@@ -122,3 +122,33 @@ Example:
 - Last Fire Timestamp/TickID: 018B000
 - AMMO +14(HEX) offset from fire timestamp
 - Bullets To Fire In Current Burst + 1D
+
+
+## Random tests
+```
+;* F4XXXXXY 00WWSIZE - 8-Bit Find and Replace, Find and Replace for 16 bytes.
+;  aabbccdd eeffgghh   WW = Wildcard Byte, SIZE = Size of Area to Search/4 so FFFF=256K,
+;  iijjkkll mmnnoopp   XXXXXY = Address @ centre of Search Area (Y must be even 0/2/4/6/8/A/C/E)
+;  AABBCCDD EEFFGGHH   Find aa,bb,cc,dd,ee,ff,gg,hh,ii,jj,kk,ll,mm,nn,oo,pp and
+;  IIJJKKLL MMNNOOPP   replace with AA,BB,CC,DD,EE,FF,GG,HH,II,JJ,KK,LL,MM,NN,OO,PP.
+;                      Any byte matching the WW character in the find bytes will
+;                      be ignored. Any byte matching the WW character in the
+;                      replace bytes will be ignored, ideally all bytes in the
+;                      replace line should be WW with the exception of where
+;                      an actual replacement is required.
+
+FF Wildcard, 32kb search region starting at address +1AD978
+This is buggy as it only checks for one byte and that can be anything and not the AI weapons, this also gives the glasses/bottles in the bar a glitchy look.
+
+The ai weapon stuff normally has several 00 bytes in the 16 byte regions, we could replace several wildcards with 00 instead.
+
+[test 8 bitfind  and replace m1 replace ai 9mm with shotgun]
+Type = Gameshark
+Activation = EndFrame
+Description = test 8 bitfind  and replace
+F41AD978 00FF2000
+02FFFFFF FFFFFFFF
+FFFFFFFF FFFFFFFF
+07FFFFFF FFFFFFFF
+FFFFFFFF FFFFFFFF
+``
