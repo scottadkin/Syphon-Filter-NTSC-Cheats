@@ -1,5 +1,5 @@
 
-# Ai Weapon Offsets First Load Only
+# AI Weapon Offsets First Load Only
 ```
 +1ADB04
 +1ADB50
@@ -35,7 +35,7 @@
 ```
 
 -396 bytes from first load
-# Ai Weapon Offsets (Reloads Only)
+# AI Weapon Offsets (Reloads Only)
 ```
 +1ADAA8
 +1AD978
@@ -106,7 +106,7 @@
 ```
 
 
-# AI Ammo Offsets (first laod only)
+# AI Ammo Offsets (first load only)
 ```
 +18B014
 +18B214

@@ -1,4 +1,4 @@
-[Georgia Street Give NPCS M79]
+[Georgia Street\Give NPCS M79]
 Type = Gameshark
 Activation = EndFrame
 Description = Give All NPCS M79.
@@ -189,7 +189,7 @@ E0116474 00
 E01164A8 20
 301adc34 10
 
-[Mission 1 Give AI M79(Retry Loads)]
+[Georgia Street\Give AI M79(Retry Loads)]
 Type = Gameshark
 Activation = EndFrame
 Description = All NPC's will have M79.
@@ -226,7 +226,7 @@ Description = All NPC's will have M79.
 301AA6B4 10
 
 
-[Mission 1 Give AI M79(First Load Only)]
+[Georgia Street\Give AI M79(First Load Only)]
 Type = Gameshark
 Activation = EndFrame
 Description = All NPC's will have M79.
@@ -262,7 +262,7 @@ Description = All NPC's will have M79.
 301AA250 10
 301AA88C 10
 
-[Mission 1 Conditional Test 1 AMMO MAGS FOR AI(at least 1 ai is missing)]
+[Georgia Street\Conditional Test 1 AMMO MAGS FOR AI(at least 1 ai is missing)]
 Type = Gameshark
 Activation = EndFrame
 Description = Description here.
@@ -325,7 +325,7 @@ C31164A8 0021
 30193b28 01
 00000000 FFFF
 
-[Mission 1 Set AI Last firetimestamp to 0(First Load Only)]
+[Georgia Street\Set AI Last firetimestamp to 0(First Load Only)]
 Type = Gameshark
 Activation = EndFrame
 Description = Sets npcs last fire timestamp to 0 allowing them to fire more often.
@@ -358,7 +358,7 @@ Description = Sets npcs last fire timestamp to 0 allowing them to fire more ofte
 90192114 00000000
 90193914 00000000
 
-[Mission 1 Give AI Shotguns(First Load Only)]
+[Georgia Street\Give AI Shotguns(First Load Only)]
 Type = Gameshark
 Activation = EndFrame
 Description = All NPC's will have Shotgun.
@@ -394,7 +394,7 @@ Description = All NPC's will have Shotgun.
 301AA250 07
 301AA88C 07
 
-[Georgia Street - Replace 9MM NPCS With Shotguns]
+[Georgia Street\Replace 9MM NPCS With Shotguns]
 Type = Gameshark
 Activation = EndFrame
 Description = Sets npcs last fire timestamp to 0 allowing them to fire more often.
@@ -523,7 +523,7 @@ E01ADA5C 02
 E01ADAA8 02
 801ADAA8 07
 
-[FIRST LOAD Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
+[Georgia Street\FIRST LOAD Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
 Type = Gameshark
 Activation = EndFrame
 Description = Description here.
@@ -610,7 +610,7 @@ Description = Description here.
 30193b31 FF
 
 
-[RETRY Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
+[Georgia Street\RETRY Unlimited Ammo For AI, Rapid Fire & 255 bullet bursts]
 Type = Gameshark
 Activation = EndFrame
 Description = Description here.

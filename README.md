@@ -1,12 +1,12 @@
 # Syphon Filter NTSC Cheats
 
 
-Ai Max danger are 216 bytes apart
+AI Max danger are 216 bytes apart
 ```
 [Instant AI Max Danger]
 Type = Gameshark
 Activation = EndFrame
-Description = Enemies will be able to damage to you instantly instead of waiting for danger bar to fill up.
+Description = Enemies will be able to damage you instantly instead of waiting for danger bar to fill up.
 9011CFCC FFFFFFFF
 9011D0A4 FFFFFFFF
 9011D17C FFFFFFFF
