@@ -1,3 +1,23 @@
+[Georgia Street\AI Weapons\Replace 9MM For Shotguns]
+Type = Gameshark
+Activation = EndFrame
+Description = Replace the 9mm for the AI and give them the shotgun.
+F41AD978 00FF2000
+02FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+07FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+
+[Georgia Street\AI Weapons\Replace M16 For M79s]
+Type = Gameshark
+Activation = EndFrame
+Description = Replace the M16 for the AI and give them the M79.
+F41AD978 00FF2000
+09FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+10FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+
 [Georgia Street\Give NPCS M79]
 Type = Gameshark
 Activation = EndFrame

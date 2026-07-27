@@ -1,6 +1,37 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
-; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
+;* F4XXXXXY 00WWSIZE - 8-Bit Find and Replace, Find and Replace for 16 bytes.
+;  aabbccdd eeffgghh   WW = Wildcard Byte, SIZE = Size of Area to Search/4 so FFFF=256K,
+;  iijjkkll mmnnoopp   XXXXXY = Address @ centre of Search Area (Y must be even 0/2/4/6/8/A/C/E)
+;  AABBCCDD EEFFGGHH   Find aa,bb,cc,dd,ee,ff,gg,hh,ii,jj,kk,ll,mm,nn,oo,pp and
+;  IIJJKKLL MMNNOOPP   replace with AA,BB,CC,DD,EE,FF,GG,HH,II,JJ,KK,LL,MM,NN,OO,PP.
+;                      Any byte matching the WW character in the find bytes will
+;                      be ignored. Any byte matching the WW character in the
+;                      replace bytes will be ignored, ideally all bytes in the
+;                      replace line should be WW with the exception of where
+;                      an actual replacement is required.
+
+
+[Georgia Street\AI Weapons\Replace 9MM For Shotguns]
+Type = Gameshark
+Activation = EndFrame
+Description = Replace the 9mm for the AI and give them the shotgun.
+F41AD978 00FF2000
+02FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+07FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+
+[Georgia Street\AI Weapons\Replace M16 For M79s]
+Type = Gameshark
+Activation = EndFrame
+Description = Replace the M16 for the AI and give them the M79.
+F41AD978 00FF2000
+09FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+10FF0000 FF0000FF
+FFFFFFFF FFFFFFFF
+
 
 [Rhoemer's Base\Give NPCS M79 SCRIPT TEST]
 Type = Gameshark
