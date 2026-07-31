@@ -122,6 +122,8 @@ Example:
 - Last Fire Timestamp/TickID: 018B000
 - AMMO +14(HEX) offset from fire timestamp
 - Bullets To Fire In Current Burst + 1D
+- Pause between fire bursts(+1b from ammo offset)
+- ? set to 0 to make ai rapid fire m16(-7 from pause between bursts)
 
 
 ## Random tests
