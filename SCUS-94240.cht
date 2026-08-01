@@ -12,6 +12,18 @@
 ;                      an actual replacement is required.
 
 
+[Harder Mode]
+Type = Gameshark
+Activation = EndFrame
+Description = Hard Mode with enemies with instant max danger.
+9011CFCC FFFFFFFF
+9011D0A4 FFFFFFFF
+9011D17C FFFFFFFF
+9011D254 FFFFFFFF
+9011D32C FFFFFFFF
+301168D0 0001
+
+
 [Georgia Street\AI Weapons\Replace 9MM For Shotguns]
 Type = Gameshark
 Activation = EndFrame
