@@ -12,6 +12,16 @@
 ;                      an actual replacement is required.
 
 
+[Georgia Street\Start With 1 Health]
+Type = Gameshark
+Activation = EndFrame
+Description = Start Mission with 1 health and no armour.
+F41A8BD8 00990100
+FFFF9999 9600FFFF
+00000000 0000CACA
+FFFF0000 0100FFFF
+00000000 0000CACA
+
 [Harder Mode]
 Type = Gameshark
 Activation = EndFrame
