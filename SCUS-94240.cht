@@ -22,6 +22,16 @@ FFFF9999 9600FFFF
 FFFF0000 0100FFFF
 00000000 0000CACA
 
+[Georgia Street\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = Test one hit ko.
+F41A8BD8 00990100
+FFFF9999 9999FFFF
+00000000 0000CACA
+FFFF0000 0100FFFF
+00000000 0000CACA
+
 [Harder Mode]
 Type = Gameshark
 Activation = EndFrame
