@@ -32,6 +32,16 @@ FFFF9999 9999FFFF
 FFFF0000 0100FFFF
 00000000 0000CACA
 
+[Destroyed Subway\One Hit KO(crashes if you start before gameplay)]
+Type = Gameshark
+Activation = EndFrame
+Description = Test one hit ko.
+F41A349C 00990050
+FFFF9999 9999FFFF
+00000000 0000CACA
+FFFF0000 0100FFFF
+00000000 0000CACA
+
 [Harder Mode]
 Type = Gameshark
 Activation = EndFrame
