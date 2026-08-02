@@ -1,0 +1,362 @@
+; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
+
+
+[One Hit KO\Georgia Street]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0000
+C01a8bd8 FFFF
+D31a8bda 0001
+801a8bda 0000
+D31a8bdc 0001
+801a8bdc 0001
+00000000 FFFF
+C01a8bd8 001E
+D31a8a4e 0001
+801a8a4e 0000
+D31a8a50 0001
+801a8a50 0001
+00000000 FFFF
+
+[One Hit KO\Destroyed Subway]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0001
+C01a349c FFFF
+D31a349e 0001
+801a349e 0000
+D31a34a0 0001
+801a34a0 0001
+00000000 FFFF
+C01a349c 0000
+D31a2ee2 0001
+801a2ee2 0000
+D31a2ee4 0001
+801a2ee4 0001
+00000000 FFFF
+
+[One Hit KO\Main Subway Line]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0002
+C01c733c FFFF
+D31c733e 0001
+801c733e 0000
+D31c7340 0001
+801c7340 0001
+00000000 FFFF
+C01c733c 0000
+D31c6cca 0001
+801c6cca 0000
+D31c6ccc 0001
+801c6ccc 0001
+00000000 FFFF
+
+[One Hit KO\Washington Park]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0003
+C01aa440 FFFF
+D31aa442 0001
+801aa442 0000
+D31aa444 0001
+801aa444 0001
+00000000 FFFF
+C01aa440 EC7C
+D31a9e0e 0001
+801a9e0e 0000
+D31a9e10 0001
+801a9e10 0001
+00000000 FFFF
+
+[One Hit KO\Freedom Memorial]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0004
+C01c0b0c FFFF
+D31c0b0e 0001
+801c0b0e 0000
+D31c0b10 0001
+801c0b10 0001
+00000000 FFFF
+C01c0b0c 0000
+D31c0496 0001
+801c0496 0000
+D31c0498 0001
+801c0498 0001
+00000000 FFFF
+
+[One Hit KO\Expo Center Reception]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0005
+C01ac26c FFFF
+D31ac26e 0001
+801ac26e 0000
+D31ac270 0001
+801ac270 0001
+00000000 FFFF
+C01ac26c 1000
+D31abf9e 0001
+801abf9e 0000
+D31abfa0 0001
+801abfa0 0001
+00000000 FFFF
+
+[One Hit KO\Expo Center Dinorama]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0006
+C01a9fd0 FFFF
+D31a9fd2 0001
+801a9fd2 0000
+D31a9fd4 0001
+801a9fd4 0001
+00000000 FFFF
+C01a9fd0 0000
+D31a9aba 0001
+801a9aba 0000
+D31a9abc 0001
+801a9abc 0001
+00000000 FFFF
+
+[One Hit KO\Rhoemer's Base]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0007
+C01a9798 FFFF
+D31a979a 0001
+801a979a 0000
+D31a979c 0001
+801a979c 0001
+00000000 FFFF
+C01a9798 0001
+D31a9292 0001
+801a9292 0000
+D31a9294 0001
+801a9294 0001
+00000000 FFFF
+
+[One Hit KO\Base Bunker]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0008
+C01b3a8c FFFF
+D31b3a8e 0001
+801b3a8e 0000
+D31b3a90 0001
+801b3a90 0001
+00000000 FFFF
+C01b3a8c 0009
+D31b381e 0001
+801b381e 0000
+D31b3820 0001
+801b3820 0001
+00000000 FFFF
+
+[One Hit KO\Base Tower]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0009
+C01c5a58 FFFF
+D31c5a5a 0001
+801c5a5a 0000
+D31c5a5c 0001
+801c5a5c 0001
+00000000 FFFF
+C01c5a58 FD0F
+D31c5522 0001
+801c5522 0000
+D31c5524 0001
+801c5524 0001
+00000000 FFFF
+
+[One Hit KO\Base Escape]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000a
+C01ae451 FF00
+D31ae44e 0001
+801ae44e 0000
+D31ae450 0001
+801ae450 0001
+00000000 FFFF
+C01ae451 1A5F
+D31adf9a 0001
+801adf9a 0000
+D31adf9c 0001
+801adf9c 0001
+00000000 FFFF
+
+[One Hit KO\Rhoemer's Stronghold]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000b
+C01ad590 FFFF
+D31ad592 0001
+801ad592 0000
+D31ad594 0001
+801ad594 0001
+00000000 FFFF
+C01ad590 0013
+D31ad322 0001
+801ad322 0000
+D31ad324 0001
+801ad324 0001
+00000000 FFFF
+
+[One Hit KO\Stronghold Lower Level]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000c
+C01ab800 FFFF
+D31ab802 0001
+801ab802 0000
+D31ab804 0001
+801ab804 0001
+00000000 FFFF
+C01ab800 E924
+D31ab066 0001
+801ab066 0000
+D31ab068 0001
+801ab068 0001
+00000000 FFFF
+
+[One Hit KO\Stronghold Catacombs]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000d
+C01ace94 FFFF
+D31ace96 0001
+801ace96 0000
+D31ace98 0001
+801ace98 0001
+00000000 FFFF
+C01ace94 0001
+D31acc7e 0001
+801acc7e 0000
+D31acc80 0001
+801acc80 0001
+00000000 FFFF
+
+[One Hit KO\Pharcom Warehouses]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000e
+C01aacf0 FFFF
+D31aacf2 0001
+801aacf2 0000
+D31aacf4 0001
+801aacf4 0001
+00000000 FFFF
+C01aacf0 0000
+D31aa652 0001
+801aa652 0000
+D31aa654 0001
+801aa654 0001
+00000000 FFFF
+
+[One Hit KO\Pharcom Elite Guards]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000f
+C01a4564 FFFF
+D31a4566 0001
+801a4566 0000
+D31a4568 0001
+801a4568 0001
+00000000 FFFF
+C01a4564 0000
+D31a4102 0001
+801a4102 0000
+D31a4104 0001
+801a4104 0001
+00000000 FFFF
+
+[One Hit KO\Warehouse 76]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0010
+C01b7398 FFFF
+D31b739a 0001
+801b739a 0000
+D31b739c 0001
+801b739c 0001
+00000000 FFFF
+C01b7398 0000
+D31b725e 0001
+801b725e 0000
+D31b7260 0001
+801b7260 0001
+00000000 FFFF
+
+[One Hit KO\Silo Access Tunnels]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0011
+C01a2302 0001
+D31a2306 0001
+801a2306 0000
+D31a2308 0001
+801a2308 0001
+00000000 FFFF
+C01a2302 0000
+D31a2092 0001
+801a2092 0000
+D31a2094 0001
+801a2094 0001
+00000000 FFFF
+
+[One Hit KO\Tunnel Blackout]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0012
+C01b0c58 FFFF
+D31b0c5a 0001
+801b0c5a 0000
+D31b0c5c 0001
+801b0c5c 0001
+00000000 FFFF
+C01b0c58 FA91
+D31b0a62 0001
+801b0a62 0000
+D31b0a64 0001
+801b0a64 0001
+00000000 FFFF
+
+[One Hit KO\Missile Silo]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0013
+C01ad5d0 FFFF
+D31ad5d2 0001
+801ad5d2 0000
+D31ad5d4 0001
+801ad5d4 0001
+00000000 FFFF
+C01ad5d0 FF80
+D31ad4c2 0001
+801ad4c2 0000
+D31ad4c4 0001
+801ad4c4 0001
+00000000 FFFF
