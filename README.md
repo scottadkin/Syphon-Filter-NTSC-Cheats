@@ -92,8 +92,7 @@ Activation = EndFrame
 - Destroyed Subway: First Load +1A349C, retry +1A2EE0
 - Main Subway Line: First Load +1C733C, retry +1C6CC8
 - Washington Park: First Load +1AA440, retry +1A9E0C
-
-
+- Freedom Memorial: First Load +1C0B0C, retry +1C0494
 
 
 # Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)

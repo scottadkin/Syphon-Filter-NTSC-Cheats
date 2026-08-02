@@ -83,6 +83,24 @@ D31a9e10 0001
 801a9e10 0001
 00000000 FFFF
 
+[Freedom Memorial\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0004
+C01C0B0C FFFF
+D31c0b0e 0001
+801c0b0e 0000
+D31c0b10 0001
+801c0b10 0001
+00000000 FFFF
+C01C0B0C 0000
+D31c0496 0001
+801c0496 0000
+D31c0498 0001
+801c0498 0001
+00000000 FFFF
+
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
 Activation = EndFrame
