@@ -29,6 +29,23 @@ D31a8a50 0001
 801a8a50 0001
 00000000 FFFF
 
+[Destroyed Subway\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0001
+C01A349C FFFF
+D31a349e 0001
+801a349e 0000
+D31a34a0 0001
+801a34a0 0001
+00000000 FFFF
+C01A349C 0000
+D31a2ee2 0001
+801a2ee2 0000
+D31a2ee4 0001
+801a2ee4 0001
+00000000 FFFF
 
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
