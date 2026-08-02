@@ -65,6 +65,24 @@ D31c6ccc 0001
 801c6ccc 0001
 00000000 FFFF
 
+[Washington Park\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0003
+C01AA440 FFFF
+D31aa442 0001
+801aa442 0000
+D31aa444 0001
+801aa444 0001
+00000000 FFFF
+C01AA440 EC7C
+D31a9e0e 0001
+801a9e0e 0000
+D31a9e10 0001
+801a9e10 0001
+00000000 FFFF
+
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
 Activation = EndFrame
