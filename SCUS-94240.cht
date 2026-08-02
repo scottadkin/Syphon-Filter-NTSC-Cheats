@@ -119,6 +119,24 @@ D31abfa0 0001
 801abfa0 0001
 00000000 FFFF
 
+[Expo Center Dinorama\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0006
+C01A9FD0 FFFF
+D31a9fd2 0001
+801a9fd2 0000
+D31a9fd4 0001
+801a9fd4 0001
+00000000 FFFF
+C01A9FD0 0000
+D31a9aba 0001
+801a9aba 0000
+D31a9abc 0001
+801a9abc 0001
+00000000 FFFF
+
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
 Activation = EndFrame
