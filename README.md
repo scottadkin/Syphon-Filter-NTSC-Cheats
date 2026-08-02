@@ -100,7 +100,14 @@ Activation = EndFrame
 - Base Tower: First Load +1C5A58, retry +1C5520
 - Base Escape: First Load +1AE44C, retry +1ADF98
 - Rhoemer's Stronghold: First Load +1AD590, retry +1AD320
-
+- Stronghold Lower Level: First Load +1AB800, retry +1AB064
+- Stronghold Catacombs: First Load +1ACE94, retry +1ACC7C
+- Pharcom Warehouses: First Load +1AACF0, retry +1AA650
+- Pharcom Elite Guards: First Load +1A4564, retry +1A4100
+- Warehouse 76: First Load +1B7398, retry +1B725C
+- Silo Access Tunnels: First Load +1A2304, retry +1A2090
+- Tunnel Blackout: First Load +1B0C58, retry +1B0A60
+- Missile Silo: First Load +1AD5D0, retry +1AD4C0
 
 # Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)
 Memory offset +01164A8
