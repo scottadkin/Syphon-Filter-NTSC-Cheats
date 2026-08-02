@@ -93,6 +93,10 @@ Activation = EndFrame
 - Main Subway Line: First Load +1C733C, retry +1C6CC8
 - Washington Park: First Load +1AA440, retry +1A9E0C
 - Freedom Memorial: First Load +1C0B0C, retry +1C0494
+- Expo Center Reception: First Load +1AC26C , retry +1ABF9C 
+- Expo Center Dinorama: First Load +1A9FD0, retry +1A9AB8
+- Rhoemer's Base: First Load +1A9798, retry +1A9290
+- Base Bunker: First Load +1B3A8C, retry +1B381C
 
 
 # Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)

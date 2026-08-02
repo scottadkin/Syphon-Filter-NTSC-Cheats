@@ -137,6 +137,42 @@ D31a9abc 0001
 801a9abc 0001
 00000000 FFFF
 
+[Rhoemer's Base\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0007
+C01A9798 FFFF
+D31a979a 0001
+801a979a 0000
+D31a979c 0001
+801a979c 0001
+00000000 FFFF
+C01A9798 0001
+D31a9292 0001
+801a9292 0000
+D31a9294 0001
+801a9294 0001
+00000000 FFFF
+
+[Base Bunker\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0008
+C01B3A8C FFFF
+D31b3a8e 0001
+801b3a8e 0000
+D31b3a90 0001
+801b3a90 0001
+00000000 FFFF
+C01B3A8C 0009
+D31b381e 0001
+801b381e 0000
+D31b3820 0001
+801b3820 0001
+00000000 FFFF
+
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
 Activation = EndFrame
