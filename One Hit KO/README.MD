@@ -1,7 +1,7 @@
 # One HIT KO Cheat(NTSC)
 Forces your max health to 1, if you pick up any armour it will be reset back to 0.
 
-Each cheat checks to see if you are on the correct mission, if you are not it won't run to prevent issues with other memory addresses being overridden.
+Each cheat checks to see if you are on the correct mission, if you are not in the current mission it shouldn't run to prevent issues with other memory addresses being overridden, however after some more play testing there are still a few issues with loading and objectives in some missions not working correctly so it's best to toggle only the mission you are currently on until I make a better cheat.
 
 # Duckstation Install
 - Download the cheat file from https://github.com/scottadkin/Syphon-Filter-NTSC-Cheats/blob/main/One%20Hit%20KO/SCUS-94240.cht
