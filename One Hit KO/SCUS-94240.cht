@@ -258,13 +258,13 @@ Type = Gameshark
 Activation = EndFrame
 Description = You only have 1 health and all armour will be removed.
 C0116474 000e
-C01aacf0 FFFF
+C01aace8 168C
 D31aacf2 0001
 801aacf2 0000
 D31aacf4 0001
 801aacf4 0001
 00000000 FFFF
-C01aacf0 0000
+C01aace8 0012
 D31aa652 0001
 801aa652 0000
 D31aa654 0001
