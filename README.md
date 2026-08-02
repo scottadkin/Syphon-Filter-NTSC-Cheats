@@ -87,6 +87,8 @@ Activation = EndFrame
 # Mission Index Byte
 - +0116474
 
+# Health & Armour Offsets(Armour First, Health Second, Both 2Bytes Each)
+- Georgia Street: First Load +1A8BDA, retry +1A8A4C
 
 # Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)
 Memory offset +01164A8

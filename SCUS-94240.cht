@@ -11,6 +11,24 @@
 ;                      replace line should be WW with the exception of where
 ;                      an actual replacement is required.
 
+[Georgia Street\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 0000
+C01A8BD8 FFFF
+D31a8bda 0001
+801a8bda 0000
+D31a8bdc 0001
+801a8bdc 0001
+00000000 FFFF
+C01A8BD8 001E
+D31a8a4e 0001
+801a8a4e 0000
+D31a8a50 0001
+801a8a50 0001
+00000000 FFFF
+
 
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
@@ -22,15 +40,6 @@ FFFF9999 9600FFFF
 FFFF0000 0100FFFF
 00000000 0000CACA
 
-[Georgia Street\One Hit KO]
-Type = Gameshark
-Activation = EndFrame
-Description = Test one hit ko.
-F41A8BD8 00990100
-FFFF9999 9999FFFF
-00000000 0000CACA
-FFFF0000 0100FFFF
-00000000 0000CACA
 
 [Destroyed Subway\One Hit KO(crashes if you start before gameplay)]
 Type = Gameshark
