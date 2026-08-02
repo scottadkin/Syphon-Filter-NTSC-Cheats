@@ -173,6 +173,42 @@ D31b3820 0001
 801b3820 0001
 00000000 FFFF
 
+[Base Escape\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000a
+C01ae451 FF00
+D31ae44e 0001
+801ae44e 0000
+D31ae450 0001
+801ae450 0001
+00000000 FFFF
+C01ae451 1A5F
+D31adf9a 0001
+801adf9a 0000
+D31adf9c 0001
+801adf9c 0001
+00000000 FFFF
+
+[Rhoemer's Stronghold\One Hit KO]
+Type = Gameshark
+Activation = EndFrame
+Description = You only have 1 health and all armour will be removed.
+C0116474 000b
+C01ad590 FFFF
+D31ad592 0001
+801ad592 0000
+D31ad594 0001
+801ad594 0001
+00000000 FFFF
+C01ad590 0013
+D31ad322 0001
+801ad322 0000
+D31ad324 0001
+801ad324 0001
+00000000 FFFF
+
 [Georgia Street\Start With 1 Health]
 Type = Gameshark
 Activation = EndFrame

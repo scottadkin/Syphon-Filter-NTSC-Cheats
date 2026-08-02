@@ -97,6 +97,9 @@ Activation = EndFrame
 - Expo Center Dinorama: First Load +1A9FD0, retry +1A9AB8
 - Rhoemer's Base: First Load +1A9798, retry +1A9290
 - Base Bunker: First Load +1B3A8C, retry +1B381C
+- Base Tower: First Load +1C5A58, retry +1C5520
+- Base Escape: First Load +1AE44C, retry +1ADF98
+- Rhoemer's Stronghold: First Load +1AD590, retry +1AD320
 
 
 # Test byte to check if mission is first load or reload(Tunnel Blackout both same value...)
