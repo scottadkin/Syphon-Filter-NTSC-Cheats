@@ -3,6 +3,9 @@ Forces your max health to 1, if you pick up any armour it will be reset back to 
 
 Each cheat checks to see if you are on the correct mission, if you are not in the current mission it shouldn't run to prevent issues with other memory addresses being overridden, however after some more play testing there are still a few issues with loading and objectives in some missions not working correctly so it's best to toggle only the mission you are currently on until I make a better cheat.
 
+# Known Issues
+- Playing Rhomer's Base with Georgia Street cheat activated stops one of the fuel tankers from being able to have C4 placed under it, disable the Georgia Street cheat and restart from last checkpoint to fix issue.
+
 # Duckstation Install
 - Download the cheat file from https://github.com/scottadkin/Syphon-Filter-NTSC-Cheats/blob/main/One%20Hit%20KO/SCUS-94240.cht
 ![Download file](images/pic0.png)
