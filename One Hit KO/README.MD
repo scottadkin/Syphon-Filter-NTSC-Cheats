@@ -2,21 +2,8 @@
 Forces your max health to 1, if you pick up any armour it will be reset back to 0.
 
 
-## Version 3.0 Notes
-All the cheats have been merged into a single cheat, the rhomers fuel tank bug still happens with this version.
-
-# Known Issues v3.0
-- Playing Rhomer's Base with cheat activated stops one of the fuel tankers from having C4 placed under it, disable cheat and restart from last checkpoint to fix issue.
-
-
-## Version 2.0(v1_SCUS-94240.cht) Notes
-I've added some additional checks to help prevent bugs when you have Georgia Street enabled while playing another level, the cheat will also wait a few level ticks to apply to prevent messing up data when the level loads.
-
-- Each cheat checks to see if you are in a menu or loading state.
-- If you are not in a loading state the cheat will check what mission index you are on.
-- If you are on the correct mission index the cheat will check if you are on a first load attempt or reload(died, failed objective....).
-- Once the level ticks count is above a certain value all your armour will be removed and you will be left with 1 health, picking up armour automatically gets removed
-
+# Version 4.0
+After the return of the Rhomer's base fuel tanks I went back to the working codes I did 1 by 1 for each level, and lazily just grouped them together and it seems to have fixed the issue. I also re-added the single mission cheats codes and fixed the delay of the health/armour being removed on the start of retry attempts.
 
 
 # Duckstation Install
@@ -42,3 +29,20 @@ Each cheat checks to see if you are on the correct mission, if you are not in th
 
 # Known Issues
 - Playing Rhomer's Base with Georgia Street cheat activated stops one of the fuel tankers from being able to have C4 placed under it, disable the Georgia Street cheat and restart from last checkpoint to fix issue.
+
+
+## Version 2.0(v1_SCUS-94240.cht) Notes
+I've added some additional checks to help prevent bugs when you have Georgia Street enabled while playing another level, the cheat will also wait a few level ticks to apply to prevent messing up data when the level loads.
+
+- Each cheat checks to see if you are in a menu or loading state.
+- If you are not in a loading state the cheat will check what mission index you are on.
+- If you are on the correct mission index the cheat will check if you are on a first load attempt or reload(died, failed objective....).
+- Once the level ticks count is above a certain value all your armour will be removed and you will be left with 1 health, picking up armour automatically gets removed
+
+
+## Version 3.0 Notes(v3_SCUS-94240.cht)
+All the cheats have been merged into a single cheat, the rhomers fuel tank bug still happens with this version.
+
+# Known Issues v3.0
+- Playing Rhomer's Base with cheat activated stops one of the fuel tankers from having C4 placed under it, disable cheat and restart from last checkpoint to fix issue.
+
