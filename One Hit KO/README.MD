@@ -2,8 +2,14 @@
 Forces your max health to 1, if you pick up any armour it will be reset back to 0.
 
 
+## Version 3.0 Notes
+All the cheats have been merged into a single cheat, the rhomers fuel tank bug still happens with this version.
 
-## Version 2.0 Notes
+# Known Issues v3.0
+- Playing Rhomer's Base with cheat activated stops one of the fuel tankers from having C4 placed under it, disable cheat and restart from last checkpoint to fix issue.
+
+
+## Version 2.0(v1_SCUS-94240.cht) Notes
 I've added some additional checks to help prevent bugs when you have Georgia Street enabled while playing another level, the cheat will also wait a few level ticks to apply to prevent messing up data when the level loads.
 
 - Each cheat checks to see if you are in a menu or loading state.
