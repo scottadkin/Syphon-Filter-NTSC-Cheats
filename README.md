@@ -1,7 +1,7 @@
 # Syphon Filter NTSC Cheats
 
 
-AI Max danger are 216 bytes apart
+AI Max danger are 216 bytes apart(0xd8)
 ```
 [Instant AI Max Danger]
 Type = Gameshark
@@ -134,6 +134,16 @@ Memory offset +01164A8
 
 
 
+## Player Position
+- Georgia Street First Load: +197614(4bytes), +4, +4.
+- Georgia Street Retry: +197488(4bytes), +4, +4.
+
+
+
+# AI Health/Weapon Offsets
+Example Rhomers base:
+- Health 2 bytes
+- -1C from health is weapon id. 1 byte
 
 
 
@@ -145,6 +155,10 @@ Example:
 - Bullets To Fire In Current Burst + 1D
 - Pause between fire bursts(+1b from ammo offset)
 - ? set to 0 to make ai rapid fire m16(-7 from pause between bursts)
+
+last shot fired -227B8 from ai health??
+another was 22BB8??
+another was 22B6C??
 
 
 ## Random tests
