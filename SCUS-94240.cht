@@ -1,5 +1,31 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
+[Hard Mode + Instant Max Danger]
+Type = Gameshark
+Activation = EndFrame
+Description = AI Target You Faster + Hard Mode
+301168D0 0001
+3011cfd0 00FF
+3011cfd3 0000
+9011cfcc FFFFFFFF
+9011cff4 FFFFFFFF
+3011d0a8 00FF
+3011d0ab 0000
+9011d0a4 FFFFFFFF
+9011d0cc FFFFFFFF
+3011d180 00FF
+3011d183 0000
+9011d17c FFFFFFFF
+9011d1a4 FFFFFFFF
+3011d258 00FF
+3011d25b 0000
+9011d254 FFFFFFFF
+9011d27c FFFFFFFF
+3011d330 00FF
+3011d333 0000
+9011d32c FFFFFFFF
+9011d354 FFFFFFFF
+
 [Rhoemer's Base\NPC Replace PK102 With Silenced 9MM]
 Type = Gameshark
 Activation = EndFrame
