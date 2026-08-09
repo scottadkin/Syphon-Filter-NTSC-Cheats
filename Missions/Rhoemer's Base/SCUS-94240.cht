@@ -1,5 +1,45 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
+[Rhoemer's Base\NPC Replace PK102 With Silenced 9MM]
+Type = Gameshark
+Activation = EndFrame
+Description = test 8 bitfind  and replace
+F41AAC48 00FF0C90
+08FF0000 FF000000
+FFFFFFFF FFFFFFFF
+01FFFFFF FFFFFFFF
+FFFFFFFF FFFFFFFF
+
+[Rhoemer's Base\NPC Replace Combat Shotgun With Silenced 9MM]
+Type = Gameshark
+Activation = EndFrame
+Description = test 8 bitfind  and replace
+F41AAC48 00FF0C90
+06FF0000 FF000000
+FFFFFFFF FFFFFFFF
+01FFFFFF FFFFFFFF
+FFFFFFFF FFFFFFFF
+
+[Rhoemer's Base\NPC Replace 9MM With Silenced 9MM]
+Type = Gameshark
+Activation = EndFrame
+Description = test 8 bitfind  and replace
+F41AAC48 00FF0C90
+02FF0000 FF000000
+FFFFFFFF FFFFFFFF
+01FFFFFF FFFFFFFF
+FFFFFFFF FFFFFFFF
+
+[Rhoemer's Base\NPC Replace 9MM With M79]
+Type = Gameshark
+Activation = EndFrame
+Description = test 8 bitfind  and replace
+F41AAC48 00FF0C90
+02FF0000 FF000000
+FFFFFFFF FFFFFFFF
+10FFFFFF FFFFFFFF
+FFFFFFFF FFFFFFFF
+
 [Rhoemer's Base Give NPCS M79 SCRIPT TEST]
 Type = Gameshark
 Activation = EndFrame

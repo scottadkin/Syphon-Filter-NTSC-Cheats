@@ -1,5 +1,22 @@
 # Syphon Filter NTSC Cheats
 
+## Main Cheat File **SCUS-94240.cht**
+- Instant AI Max Danger.
+- One Hit KO All Levels.
+- One Hit KO individual missions.
+- Rapid Fire.
+- Allow explosives on the mission Main Subway Line
+- Multiple Give AI M79's mission tests.
+
+## One Hit KO
+- Forces player's max health to 1, removes all armour including pickups.
+- All levels cheat, or per level cheats.
+
+**/One Hit KO/SCUS-94240.cht**
+
+
+
+# Notes
 
 AI Max danger are 216 bytes apart(0xd8)
 ```
@@ -141,11 +158,14 @@ Memory offset +01164A8
 
 
 # AI Health/Weapon Offsets
-Example Rhomers base:
+Example Rhomers base: (76 bytes apart?)
 - Health 2 bytes
 - -1C from health is weapon id. 1 byte
 
-
+# AI Ammo offsets
+Example rhomers base:
+- Ammo 1 byte
+- -14(hex) last shot fired
 
 # AI structure?
 
