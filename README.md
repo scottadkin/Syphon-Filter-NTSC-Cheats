@@ -198,9 +198,25 @@ another was 22B6C??
 
 
 ## Crates
-- 0 = Not Taken, 32 = Taken. If set back to 0 you can retake the item if you return to it.
-m79 create not taken bytes: 00 10 49 01 D9 00 00 00 80 BE 18 80 00 00 00 00
-m79 create taken bytes: 20 10 49 01 D9 00 00 00 80 BE 18 80 00 00 00 00
+- 0(9th byte) = Not Taken, 32(0x20) = Taken. If set back to 0 you can retake the item if you return to it.
+m79 crate not taken 00 00 00 00 06 00 0B 00 00 10 49 01 D9 00 00 00
+m79 crate taken bytes: 00 00 00 00 06 00 0B 00 20 10 49 01 D9 00 00 00
+
+Geogria Street Bank
+m16 crate not taken 00 00 00 00 06 00 0B 00 00 09 51 01 DC 00 00 00
+m16 crate taken 00 00 00 00 06 00 0B 00 20 09 51 01 DC 00 00 00
+
+Geogria Street Bank
+grenades crate not taken 00 00 00 00 06 00 0B 00 00 13 53 01 DA 00 00 00
+grenades crate taken 00 00 00 00 06 00 0B 00 20 13 53 01 DA 00 00 00
+
+Georgia Street Bank
+Flak Jacket not taken 00 00 00 00 06 00 0B 00 00 80 52 01 DD 00 00 00
+Flak Jacket taken 00 00 00 00 06 00 0B 00 20 80 52 01 DD 00 00 00
+
+Georgia Street Bar
+Shotgun not taken 00 00 00 00 06 96 07 00 00 07 48 01 DB 00 00 00
+Shotgun taken 00 00 00 00 06 96 07 00 20 07 48 01 DB 00 00 00
 
 ## Random tests
 ```

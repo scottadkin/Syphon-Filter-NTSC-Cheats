@@ -1,3 +1,13 @@
+[Georgia Street\M79 Unlimited Refills]
+Type = Gameshark
+Activation = EndFrame
+Description = Take a step away and return to get more ammo.
+F419C178 00FF1000
+00000000 06000B00 
+20104901 D9000000
+FFFFFFFF FFFFFFFF
+00FFFFFF FFFFFFFF
+
 [Georgia Street\Tests\RELOAD AI No weapon bursts unlimited ammo]
 Type = Gameshark
 Activation = EndFrame

@@ -1,5 +1,16 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
+
+[Georgia Street\M79 Unlimited Refills]
+Type = Gameshark
+Activation = EndFrame
+Description = Take a step away and return to get more ammo.
+F419C178 00FF1000
+00000000 06000B00 
+20104901 D9000000
+FFFFFFFF FFFFFFFF
+00FFFFFF FFFFFFFF
+
 [Hard Mode + Instant Max Danger]
 Type = Gameshark
 Activation = EndFrame
