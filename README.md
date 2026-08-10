@@ -196,6 +196,12 @@ another was 22BB8??
 another was 22B6C??
 
 
+
+## Crates
+- 0 = Not Taken, 32 = Taken. If set back to 0 you can retake the item if you return to it.
+m79 create not taken bytes: 00 10 49 01 D9 00 00 00 80 BE 18 80 00 00 00 00
+m79 create taken bytes: 20 10 49 01 D9 00 00 00 80 BE 18 80 00 00 00 00
+
 ## Random tests
 ```
 ;* F4XXXXXY 00WWSIZE - 8-Bit Find and Replace, Find and Replace for 16 bytes.
