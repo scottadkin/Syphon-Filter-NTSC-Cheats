@@ -154,6 +154,8 @@ Memory offset +01164A8
 ## Player Position
 - Georgia Street First Load: +197614(4bytes), +4, +4.
 - Georgia Street Retry: +197488(4bytes), +4, +4.
+- Destroyed Subway First Load: +196A28, +4, +4.
+- Destroyed Subway Retry: +19646C, +4, +4.
 
 
 
@@ -168,6 +170,19 @@ Example rhomers base:
 - -14(hex) last shot fired
 
 # AI structure?
+
+NPC Positions:
+- Offsets seem to be same on first load and retry
+NPC Positions 1a8 bytes apart? (-0x40 another set off addresses for same ai)(position offsets same on level 1 and level 3?)
+//Krav spawn coordinates 29 FA FF FF C1 08 00 00 17 1A 00 00
+Level 1/3 offsets:
++11D478 (npc)
+npc +1A8 (npc2)
+npc2 +1A8 (npc3)
+npc3 +1A8 (npc4)
+npc4 +1A8 (npc5)
+
+
 
 Example:
 - Last Fire Timestamp/TickID: 018B000
