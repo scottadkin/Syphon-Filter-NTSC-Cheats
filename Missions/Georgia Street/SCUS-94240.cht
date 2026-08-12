@@ -1,3 +1,23 @@
+[Georgia Street\NPC Have 1 Health - Non Flak Jacket test]
+Type = Gameshark
+Activation = EndFrame
+Description = Change AI health to 1 on spawn.
+F41AA220 00BB2000
+6400FFFF BB00BB00
+0000CACA BB000000
+01BBBBBB BBBBBBBB
+BBBBBBBB BBBBBBBB
+
+[Georgia Street\NPC Have 255 Health - Non Flak Jacket test]
+Type = Gameshark
+Activation = EndFrame
+Description = Change AI health to 255 on spawn.
+F41AA220 00BB2000
+6400FFFF BB00BB00
+0000CACA BB000000
+FFBBBBBB BBBBBBBB
+BBBBBBBB BBBBBBBB
+
 [Georgia Street\M79 Unlimited Refills]
 Type = Gameshark
 Activation = EndFrame

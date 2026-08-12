@@ -158,6 +158,8 @@ Memory offset +01164A8
 - Destroyed Subway Retry: +19646C, +4, +4.
 
 
+# NPC health data? in subway.ovl
+64 00 FF FF 00 00 00 00 00 00 CA CA
 
 # AI Health/Weapon Offsets
 Example Rhomers base: (76 bytes apart?)
@@ -198,7 +200,11 @@ another was 22B6C??
 
 
 ## Crates
+- Objects 0x24 bytes apart?
+
 - 0(9th byte) = Not Taken, 32(0x20) = Taken. If set back to 0 you can retake the item if you return to it.
+- Following 2 bytes offset to data? always 256 bytes apart //wrong
+- the 2nd byte is item index/order? DC, DD, DA
 m79 crate not taken 00 00 00 00 06 00 0B 00 00 10 49 01 D9 00 00 00
 m79 crate taken bytes: 00 00 00 00 06 00 0B 00 20 10 49 01 D9 00 00 00
 
