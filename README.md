@@ -158,8 +158,12 @@ Memory offset +01164A8
 - Destroyed Subway Retry: +19646C, +4, +4.
 
 
-# NPC health data? in subway.ovl
+# NPC health data? in subway.fog
+after BARLIT.TMD text (3 different sets of same data?)
 64 00 FF FF 00 00 00 00 00 00 CA CA
+-1C from first byte is weapon id
+
+flak jacket -2 bytes from health
 
 # AI Health/Weapon Offsets
 Example Rhomers base: (76 bytes apart?)
