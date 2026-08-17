@@ -15,12 +15,46 @@
 **/One Hit KO/SCUS-94240.cht**
 
 
+## v2.0 Instant Max Danger
+- In this version of AI max danger the AI will cause damage to you regardless if you are moving or not, if they can see you they will damage you.
+
 
 # Notes
 
 AI Max danger are 216 bytes apart(0xd8)
 ```
-[Instant AI Max Danger]
+
+[v2.0 Instant Max Danger]
+Type = Gameshark
+Activation = EndFrame
+Description = Improved version of Instant Max Danger
+C311cfd3 01
+9011cfcc FFFFFFFF
+8011cffc 1000
+3011cf80 FF
+00000000 FFFF
+C311d0ab 01
+9011d0a4 FFFFFFFF
+8011d0d4 1000
+3011d058 FF
+00000000 FFFF
+C311d183 01
+9011d17c FFFFFFFF
+8011d1ac 1000
+3011d130 FF
+00000000 FFFF
+C311d25b 01
+9011d254 FFFFFFFF
+8011d284 1000
+3011d208 FF
+00000000 FFFF
+C311d333 01
+9011d32c FFFFFFFF
+8011d35c 1000
+3011d2e0 FF
+00000000 FFFF
+
+[v1.0 Instant AI Max Danger]
 Type = Gameshark
 Activation = EndFrame
 Description = Enemies will be able to damage you instantly instead of waiting for danger bar to fill up.
@@ -159,9 +193,29 @@ Memory offset +01164A8
 
 
 # NPC health data? in subway.fog
+
+76 bytes apart?
 after BARLIT.TMD text (3 different sets of same data?)
+100health
 64 00 FF FF 00 00 00 00 00 00 CA CA
+150health
+96 00 FF FF 00 00 00 00 00 00 CA CA
 -1C from first byte is weapon id
+
+WeaponId to health bytes from subway.fog
+9mm npc
+02 83 00 00 01 00 00 00 40 0B 00 00 FF FF FF FF 
+00 00 00 00 01 00 01 00 FF FF 64 00 64 00 FF FF 
+00 00 00 00 00 00 CA CA
+
+
+? grenade /9mm bank roof guy?
+weaponID -4 bytes
+13 1A 00 00 02 C1 00 00 03 00 00 00 78 12 00 00 
+FF FF FF FF 00 00 00 00 01 00 01 00 FF FF 64 00 
+64 00 FF FF 00 00 00 00 00 00 CA CA 
+
+
 
 flak jacket -2 bytes from health
 

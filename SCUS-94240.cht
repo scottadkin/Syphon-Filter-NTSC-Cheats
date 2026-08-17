@@ -1,5 +1,34 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
+[v2.0 Instant Max Danger]
+Type = Gameshark
+Activation = EndFrame
+Description = Improved version of Instant Max Danger
+C311cfd3 01
+9011cfcc FFFFFFFF
+8011cffc 1000
+3011cf80 FF
+00000000 FFFF
+C311d0ab 01
+9011d0a4 FFFFFFFF
+8011d0d4 1000
+3011d058 FF
+00000000 FFFF
+C311d183 01
+9011d17c FFFFFFFF
+8011d1ac 1000
+3011d130 FF
+00000000 FFFF
+C311d25b 01
+9011d254 FFFFFFFF
+8011d284 1000
+3011d208 FF
+00000000 FFFF
+C311d333 01
+9011d32c FFFFFFFF
+8011d35c 1000
+3011d2e0 FF
+00000000 FFFF
 
 [Georgia Street\M79 Unlimited Refills]
 Type = Gameshark
