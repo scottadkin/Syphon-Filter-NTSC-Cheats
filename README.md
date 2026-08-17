@@ -18,12 +18,28 @@
 ## v2.0 Instant Max Danger
 - In this version of AI max danger the AI will cause damage to you regardless if you are moving or not, if they can see you they will damage you.
 
+**Notes**
+Last Seen Timestamps Offsets(4bytes):
++11CFCC
++11D0A4
++11D17C
++11D254
++11D32C 
 
-# Notes
+**+0x07** from each address is a byte, if it's value is 0 it can see it's target.
+**+0x30** from each address is the danger value that the hud uses, 2 bytes, range 1-4096, higher the value more the danger bar fills up.
+**-0x4C** from each address is a byte counter, if the value is over a certain value(>121) the NPC can cause damage to it's target.
 
-AI Max danger are 216 bytes apart(0xd8)
+Cheat pseudocode:
 ```
+If NPC#1 can see target
+    then set last seen target timestamp to max int
+    set danger value to 4096
+    and set byte counter over damage threshold
+Repeat 5 times for different addresses.
+``
 
+```
 [v2.0 Instant Max Danger]
 Type = Gameshark
 Activation = EndFrame
@@ -53,6 +69,14 @@ C311d333 01
 8011d35c 1000
 3011d2e0 FF
 00000000 FFFF
+```
+
+# Notes
+
+AI Max danger are 216 bytes apart(0xd8)
+```
+
+
 
 [v1.0 Instant AI Max Danger]
 Type = Gameshark
