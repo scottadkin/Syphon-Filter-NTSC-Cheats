@@ -216,6 +216,16 @@ Memory offset +01164A8
 - Destroyed Subway Retry: +19646C, +4, +4.
 
 
+## NPC Non Respawning Data(XXX.FOG -> XXX.BIN)
+- Data in XXX.BIN only used after failing mission one time, otherwise a duplicate? version of data is used at an earlier offset in the mission .FOG archive.
+- Data Objects appear to be begin with split via two bytes of 0xCA 0xCA
+xx xx xx xx xx xx xx xx xx xx xx xx WeaponId
+//Shotgun enemy
+51 23 00 00 00 00 00 00 fe 10 00 00 07 01 00 00 63 00 00 00 50 24 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00
+//.45 enemy
+30 0e 00 00 00 00 00 00 1d f0 ff ff 04 01 00 00 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00
+
+
 # NPC health data? in subway.fog
 
 76 bytes apart?
@@ -238,6 +248,7 @@ weaponID -4 bytes
 13 1A 00 00 02 C1 00 00 03 00 00 00 78 12 00 00 
 FF FF FF FF 00 00 00 00 01 00 01 00 FF FF 64 00 
 64 00 FF FF 00 00 00 00 00 00 CA CA 
+
 
 
 
