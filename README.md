@@ -37,7 +37,7 @@ If NPC#1 can see target
     set danger value to 4096
     and set byte counter over damage threshold
 Repeat 5 times for different addresses.
-``
+```
 
 ```
 [v2.0 Instant Max Danger]
@@ -333,4 +333,4 @@ F41AD978 00FF2000
 FFFFFFFF FFFFFFFF
 07FFFFFF FFFFFFFF
 FFFFFFFF FFFFFFFF
-``
+```
