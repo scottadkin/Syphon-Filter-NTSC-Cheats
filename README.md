@@ -225,6 +225,7 @@ xx xx xx xx xx xx xx xx xx xx xx xx WeaponId
 //.45 enemy
 30 0e 00 00 00 00 00 00 1d f0 ff ff 04 01 00 00 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00
 
+Setting the byte after the non respawning NPCs weaponID to DEC 81 gives the NPCs flak jackets, but makes them spawn out of sequence to the mission
 
 # NPC health data? in subway.fog
 
