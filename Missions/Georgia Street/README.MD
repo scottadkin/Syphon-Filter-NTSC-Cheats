@@ -1,3 +1,38 @@
+## Objects
+ClassID (22 bytes data, offset 0)	Item
+- 0x00	White Light
+- 0x01	Glass Window BAR
+- 0x01	Clear Glass Window BAR
+- 0x03	Beer Bottle
+- 0x04	Beer Bottle
+- 0x05	Beer Bottle
+- 0x06	Beer Bottle
+- 0x07	Beer Bottle
+- 0x08	Bomb
+- 0x09	Final Bomb
+- 0x0B	Fire effect near police cars(does cause damage to player)
+- 0x0D	CBDC NPC
+- 0x10	Kravitch
+- 0x16	Security Gate First Ramp
+- 0x18	Street Light Corona
+- 0x19	Orange near bar Light??
+- 0x1A	Crashes if you change it
+- 0x1B	Player Spawn?
+- 0x1E	Subway Level Lights On Side Paths?
+- 0x22	Glass Behind Krav
+- 0x23	Glass Behind Krav
+- 0x25	Cameras For Crates/Switches
+- 0x26	???
+- 0x2E	Lights In Subway(secret areas)
+- 0x2F	Collision area on police cars not on side(on fire)
+- 0x31	Lights In Subway(Main ones on ceilings)
+- 0x35	NPC Spawn(Non respawn)
+- 0x39	Weapon Crate
+- 0x3B	Lights near security switch elevator
+
+
+## HIGH SPAWN AREA AT START	x3980,z2842,y7366
+
 ## Crates
 ```
 Shotgun in bar
@@ -12,11 +47,19 @@ D1,FE,FF,FF,83,00,00,00,86,FE,FF,FF,09,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF
 m16 #2
 7D,33,00,00,60,08,00,00,86,28,00,00,09,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,00,00,00,00,01,00,02,00,FF,FF,01,00,01,00,FF,FF,00,00,00,00,00,00
 
-m79 #1
+m79 #1(Climb outside bar)
 3C,03,00,00,7E,0A,00,00,4B,0E,00,00,10,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,00,00,00,00,01,00,02,00,FF,FF,01,00,01,00,FF,FF,00,00,00,00,00,00
 
-m79 #2
+m79 #2(Subway)
 13,F9,FF,FF,82,00,00,00,CC,0F,00,00,10,00,00,00,00,00,00,00,00,00,00,00,FF,FF,FF,FF,00,00,00,00,01,00,02,00,FF,FF,01,00,01,00,FF,FF,00,00,00,00,00,00
+```
+
+## Bombs
+- Bombs have 400 Health
+```
+3A 05 00 00 86 00 00 00 85 FA FF FF 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00 01 00 0F 00 FF FF 90 01 90 01 FF FF 00 00 00 00 00 00
+
+21 39 00 00 5D 08 00 00 BF 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 00 00 00 00 00 01 00 0F 00 FF FF 90 01 90 01 FF FF 00 00 00 00 00 00
 ```
 
 ## Non Respawning NPC Data(SUBWAY.BIN) (Restart At checkpoint)
