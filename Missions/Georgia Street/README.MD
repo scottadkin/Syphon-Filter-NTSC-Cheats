@@ -12,7 +12,7 @@ ClassID (22 bytes data, offset 0)	Item
 - 0x09	Final Bomb
 - 0x0B	Fire effect near police cars(does cause damage to player)
 - 0x0D	CBDC NPC
-- 0x10	Kravitch
+- 0x10	Kravitch/Enemy
 - 0x16	Security Gate First Ramp
 - 0x18	Street Light Corona
 - 0x19	Orange near bar Light??
@@ -23,11 +23,13 @@ ClassID (22 bytes data, offset 0)	Item
 - 0x23	Glass Behind Krav
 - 0x25	Cameras For Crates/Switches
 - 0x26	???
+- 0x29	Flashing Light
 - 0x2E	Lights In Subway(secret areas)
 - 0x2F	Collision area on police cars not on side(on fire)
 - 0x31	Lights In Subway(Main ones on ceilings)
 - 0x35	NPC Spawn(Non respawn)
-- 0x39	Weapon Crate
+- 0x38	Weapon Crate(Hidden)
+- 0x39	Weapon Crate(Normal)
 - 0x3B	Lights near security switch elevator
 
 
