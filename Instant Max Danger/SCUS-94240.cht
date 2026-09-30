@@ -64,3 +64,33 @@ C311d333 01
 3011d2e0 FF
 3011d328 FF
 00000000 FFFF
+
+[Instant Max Danger 2.0\Washington Park\GIVE CBDC 667 Health]
+Type = Gameshark
+Activation = EndFrame
+Description = Let CBDC Take 5 hits instead of 2.
+F41A9A8C 00AA1000
+2c01FFFF 00000000
+0000AAAA AAAAAAAA
+9B02AAAA AAAAAAAA
+AAAAAAAA AAAAAAAA
+
+[Instant Max Danger 2.0\Washington Park\GIVE CBDC 451 Health]
+Type = Gameshark
+Activation = EndFrame
+Description = Let CBDC Take 4 hits instead of 2.
+F41A9A8C 00AA1000
+2c01FFFF 00000000
+0000AAAA AAAAAAAA
+C301AAAA AAAAAAAA
+AAAAAAAA AAAAAAAA
+
+[Instant Max Danger 2.0\Washington Park\GIVE CBDC 301 Health]
+Type = Gameshark
+Activation = EndFrame
+Description = Let CBDC Take 3 hits instead of 2.
+F41A9A8C 00AA1000
+2c01FFFF 00000000
+0000AAAA AAAAAAAA
+2D01AAAA AAAAAAAA
+AAAAAAAA AAAAAAAA
