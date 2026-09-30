@@ -76,43 +76,49 @@ Cheat pseudocode:
 If NPC#1 can see target
     then set last seen target timestamp to max int
     set danger value to 4096
-    set accuracy(?) bonus to max value(AI will hit every shot while you are moving or far away)
+    set counter to max value
+    set another counter byte to non zero
     and set byte counter over damage threshold
 Repeat 5 times for different addresses.
 ```
 ```
-[v2.0 Instant Max Danger With Max NPC Accuracy]
+[v2.2 Instant Max Danger]
 Type = Gameshark
 Activation = EndFrame
-Description = Instant Max Danger 2.0 With NPC Accuracy Boost
+Description = Instant Max Danger 2.0
 C311cfd3 01
 9011cfcc FFFFFFFF
 8011cffc 1000
 3011cf80 FF
+3011cf7f FF
 3011cfc8 FF
 00000000 FFFF
 C311d0ab 01
 9011d0a4 FFFFFFFF
 8011d0d4 1000
 3011d058 FF
+3011d057 FF
 3011d0a0 FF
 00000000 FFFF
 C311d183 01
 9011d17c FFFFFFFF
 8011d1ac 1000
 3011d130 FF
+3011d12f FF
 3011d178 FF
 00000000 FFFF
 C311d25b 01
 9011d254 FFFFFFFF
 8011d284 1000
 3011d208 FF
+3011d207 FF
 3011d250 FF
 00000000 FFFF
 C311d333 01
 9011d32c FFFFFFFF
 8011d35c 1000
 3011d2e0 FF
+3011d2df FF
 3011d328 FF
 00000000 FFFF
 ```
