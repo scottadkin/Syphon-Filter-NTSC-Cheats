@@ -1,95 +1,147 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 3001 Health]
+[Instant Max Danger\v2.3 Instant Max Danger]
+Type = Gameshark
+Activation = EndFrame
+Description = Instant Max Danger 2.3
+C311cfd3 01
+9011cfcc FFFFFFFF
+8011cffc 1000
+8011cf80 01FF
+3011cfc8 FF
+00000000 FFFF
+C311d0ab 01
+9011d0a4 FFFFFFFF
+8011d0d4 1000
+8011d058 01FF
+3011d0a0 FF
+00000000 FFFF
+C311d183 01
+9011d17c FFFFFFFF
+8011d1ac 1000
+8011d130 01FF
+3011d178 FF
+00000000 FFFF
+C311d25b 01
+9011d254 FFFFFFFF
+8011d284 1000
+8011d208 01FF
+3011d250 FF
+00000000 FFFF
+C311d333 01
+9011d32c FFFFFFFF
+8011d35c 1000
+8011d2e0 01FF
+3011d328 FF
+00000000 FFFF
+
+[Instant Max Danger\Washington Park\GIVE CBDC 3001 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 21 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 BB09AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 1351 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 1351 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 10 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 4705AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-//4b1 = b104
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 1201 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 1201 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 9 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 b104AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 1051 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 1051 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 8 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 1b04AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 901 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 901 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 7 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 8503AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 751 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 751 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 6 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 EF02AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 601 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 601 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 5 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 5902AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 451 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 451 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 4 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 C301AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
-[Instant Max Danger 2.0\Washington Park\GIVE CBDC 301 Health]
+[Instant Max Danger\Washington Park\GIVE CBDC 301 Health]
 Type = Gameshark
 Activation = EndFrame
 Description = Let CBDC Take 3 hits instead of 2.
+C0116474 0003
 F41A9A8C 00AA1000
 2c01FFFF 00000000
 0000AAAA AAAAAAAA
 2D01AAAA AAAAAAAA
 AAAAAAAA AAAAAAAA
+00000000 FFFFFFFF
 
 [v2.0 Instant Max Danger]
 Type = Gameshark
