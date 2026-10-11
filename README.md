@@ -339,6 +339,20 @@ another was 22BB8??
 another was 22B6C??
 
 
+- NPC last Fire
+- +36Dec(24hex) 1 byte NPC State?
+- +4 from that attack cooldown
+
+**Rhomers Base Last shot fired first load**(200Hex bytes apart)
+- 1A2028
+- 1A2228
+- 1A2628
+- 1A2E28
+- 1A3028
+- 1A3E28
+- 1A4028
+
+
 
 ## Crates
 - Objects 0x24 bytes apart?
