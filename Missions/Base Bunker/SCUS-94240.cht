@@ -1,4 +1,4 @@
-[Base Bunker\Both Loads\NPC Rapid Fire]
+[Base Bunker\NPC Rapid Fire]
 Type = Gameshark
 Activation = EndFrame
 Description = Allow NPCS to fire as fast as possible.
@@ -36,7 +36,7 @@ C0116474 0008
 		901a4628 FFFFFFFF
 		901a4828 FFFFFFFF
 		901a4a28 FFFFFFFF
-	00000000 FFFFFFFF
+	00000000 FFFF
 ;reload
 	C01164A7 9800
 		901a0bb8 FFFFFFFF
@@ -70,8 +70,233 @@ C0116474 0008
 		901a43b8 FFFFFFFF
 		901a45b8 FFFFFFFF
 		901a47b8 FFFFFFFF
-	00000000 FFFFFFFF
-00000000 FFFFFFFF
+	00000000 FFFF
+00000000 FFFF
+
+[Base Bunker\NPC No Fire Cooldown]
+Type = Gameshark
+Activation = EndFrame
+Description = Remove attack cooldowns from npcs.
+C0116474 0008
+;first try
+	C01164A7 D000
+		301a0e50 00
+		301a1050 00
+		301a1250 00
+		301a1450 00
+		301a1650 00
+		301a1850 00
+		301a1a50 00
+		301a1c50 00
+		301a1e50 00
+		301a2050 00
+		301a2250 00
+		301a2450 00
+		301a2650 00
+		301a2850 00
+		301a2a50 00
+		301a2c50 00
+		301a2e50 00
+		301a3050 00
+		301a3250 00
+		301a3450 00
+		301a3650 00
+		301a3850 00
+		301a3a50 00
+		301a3c50 00
+		301a3e50 00
+		301a4050 00
+		301a4250 00
+		301a4450 00
+		301a4650 00
+		301a4850 00
+		301a4a50 00
+	00000000 FFFF
+;reload
+	C01164A7 9800
+		301a0be0 00
+		301a0de0 00
+		301a0fe0 00
+		301a11e0 00
+		301a13e0 00
+		301a15e0 00
+		301a17e0 00
+		301a19e0 00
+		301a1be0 00
+		301a1de0 00
+		301a1fe0 00
+		301a21e0 00
+		301a23e0 00
+		301a25e0 00
+		301a27e0 00
+		301a29e0 00
+		301a2be0 00
+		301a2de0 00
+		301a2fe0 00
+		301a31e0 00
+		301a33e0 00
+		301a35e0 00
+		301a37e0 00
+		301a39e0 00
+		301a3be0 00
+		301a3de0 00
+		301a3fe0 00
+		301a41e0 00
+		301a43e0 00
+		301a45e0 00
+		301a47e0 00
+	00000000 FFFF
+00000000 FFFF
+
+[Base Bunker\NPCS Unlimited Fire Bursts]
+Type = Gameshark
+Activation = EndFrame
+Description = Remove bullet bursts limits for NPCS.
+C0116474 0008
+;first try
+	C01164A7 D000
+		301a0e45 FF
+		301a1045 FF
+		301a1245 FF
+		301a1445 FF
+		301a1645 FF
+		301a1845 FF
+		301a1a45 FF
+		301a1c45 FF
+		301a1e45 FF
+		301a2045 FF
+		301a2245 FF
+		301a2445 FF
+		301a2645 FF
+		301a2845 FF
+		301a2a45 FF
+		301a2c45 FF
+		301a2e45 FF
+		301a3045 FF
+		301a3245 FF
+		301a3445 FF
+		301a3645 FF
+		301a3845 FF
+		301a3a45 FF
+		301a3c45 FF
+		301a3e45 FF
+		301a4045 FF
+		301a4245 FF
+		301a4445 FF
+		301a4645 FF
+		301a4845 FF
+		301a4a45 FF
+	00000000 FFFF
+;reload
+	C01164A7 9800
+		301a0bd5 FF
+		301a0dd5 FF
+		301a0fd5 FF
+		301a11d5 FF
+		301a13d5 FF
+		301a15d5 FF
+		301a17d5 FF
+		301a19d5 FF
+		301a1bd5 FF
+		301a1dd5 FF
+		301a1fd5 FF
+		301a21d5 FF
+		301a23d5 FF
+		301a25d5 FF
+		301a27d5 FF
+		301a29d5 FF
+		301a2bd5 FF
+		301a2dd5 FF
+		301a2fd5 FF
+		301a31d5 FF
+		301a33d5 FF
+		301a35d5 FF
+		301a37d5 FF
+		301a39d5 FF
+		301a3bd5 FF
+		301a3dd5 FF
+		301a3fd5 FF
+		301a41d5 FF
+		301a43d5 FF
+		301a45d5 FF
+		301a47d5 FF
+	00000000 FFFF
+00000000 FFFF
+
+[Base Bunker\NPCS Unlimited Ammo]
+Type = Gameshark
+Activation = EndFrame
+Description = Give NPCS Unlimited Ammo.
+C0116474 0008
+;first try
+	C01164A7 D000
+		301a0e3d FF
+		301a103d FF
+		301a123d FF
+		301a143d FF
+		301a163d FF
+		301a183d FF
+		301a1a3d FF
+		301a1c3d FF
+		301a1e3d FF
+		301a203d FF
+		301a223d FF
+		301a243d FF
+		301a263d FF
+		301a283d FF
+		301a2a3d FF
+		301a2c3d FF
+		301a2e3d FF
+		301a303d FF
+		301a323d FF
+		301a343d FF
+		301a363d FF
+		301a383d FF
+		301a3a3d FF
+		301a3c3d FF
+		301a3e3d FF
+		301a403d FF
+		301a423d FF
+		301a443d FF
+		301a463d FF
+		301a483d FF
+		301a4a3d FF
+	00000000 FFFF
+;reload
+	C01164A7 9800
+		301a0bcd FF
+		301a0dcd FF
+		301a0fcd FF
+		301a11cd FF
+		301a13cd FF
+		301a15cd FF
+		301a17cd FF
+		301a19cd FF
+		301a1bcd FF
+		301a1dcd FF
+		301a1fcd FF
+		301a21cd FF
+		301a23cd FF
+		301a25cd FF
+		301a27cd FF
+		301a29cd FF
+		301a2bcd FF
+		301a2dcd FF
+		301a2fcd FF
+		301a31cd FF
+		301a33cd FF
+		301a35cd FF
+		301a37cd FF
+		301a39cd FF
+		301a3bcd FF
+		301a3dcd FF
+		301a3fcd FF
+		301a41cd FF
+		301a43cd FF
+		301a45cd FF
+		301a47cd FF
+	00000000 FFFF
+00000000 FFFF
 
 [Base Bunker\First Load\NPC Rapid Fire]
 Type = Gameshark
@@ -145,6 +370,9 @@ Description = Allow NPCS to fire as fast as possible.
 901a45b8 FFFFFFFF
 901a47b8 FFFFFFFF
 
+
+
+
 [Base Bunker\First Load\NPC No Fire Cooldown]
 Type = Gameshark
 Activation = EndFrame
@@ -217,6 +445,7 @@ Description = Remove attack cooldowns from npcs
 301a45e0 00
 301a47e0 00
 
+
 [Base Bunker\First Load\NPCS Unlimited Fire Bursts]
 Type = Gameshark
 Activation = EndFrame
@@ -288,6 +517,7 @@ Description = Remove bullet bursts limits for NPCS.
 301a43d5 FF
 301a45d5 FF
 301a47d5 FF
+
 
 [Base Bunker\First Load\NPCS Unlimited Ammo]
 Type = Gameshark
