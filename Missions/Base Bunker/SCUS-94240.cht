@@ -69,3 +69,75 @@ Description = Allow NPCS to fire as fast as possible.
 901a43b8 FFFFFFFF
 901a45b8 FFFFFFFF
 901a47b8 FFFFFFFF
+
+[Base Bunker\First Load\NPC No Fire Cooldown]
+Type = Gameshark
+Activation = EndFrame
+Description = Remove attack cooldowns from npcs
+301a0e50 00
+301a1050 00
+301a1250 00
+301a1450 00
+301a1650 00
+301a1850 00
+301a1a50 00
+301a1c50 00
+301a1e50 00
+301a2050 00
+301a2250 00
+301a2450 00
+301a2650 00
+301a2850 00
+301a2a50 00
+301a2c50 00
+301a2e50 00
+301a3050 00
+301a3250 00
+301a3450 00
+301a3650 00
+301a3850 00
+301a3a50 00
+301a3c50 00
+301a3e50 00
+301a4050 00
+301a4250 00
+301a4450 00
+301a4650 00
+301a4850 00
+301a4a50 00
+
+[Base Bunker\Retry\NPC No Fire Cooldown]
+Type = Gameshark
+Activation = EndFrame
+Description = Remove attack cooldowns from npcs
+301a0be0 00
+301a0de0 00
+301a0fe0 00
+301a11e0 00
+301a13e0 00
+301a15e0 00
+301a17e0 00
+301a19e0 00
+301a1be0 00
+301a1de0 00
+301a1fe0 00
+301a21e0 00
+301a23e0 00
+301a25e0 00
+301a27e0 00
+301a29e0 00
+301a2be0 00
+301a2de0 00
+301a2fe0 00
+301a31e0 00
+301a33e0 00
+301a35e0 00
+301a37e0 00
+301a39e0 00
+301a3be0 00
+301a3de0 00
+301a3fe0 00
+301a41e0 00
+301a43e0 00
+301a45e0 00
+301a47e0 00

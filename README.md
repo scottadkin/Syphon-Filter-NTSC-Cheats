@@ -367,6 +367,7 @@ Possible pattern targets for memory scanning(last shot fired is byte 0)
 -4-3-2-1+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f+10+11+12+13+14
 0 8 0 0 0 0 0 0 X X X X X X X X 0 0 X X 64 0 0 0 1E 0 X X
 
+```00 08 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 ?? ?? 64 ?? ?? ?? 1E 00 ?? ??```
 
 ## Crates
 - Objects 0x24 bytes apart?
