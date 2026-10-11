@@ -141,3 +141,75 @@ Description = Remove attack cooldowns from npcs
 301a43e0 00
 301a45e0 00
 301a47e0 00
+
+[Base Bunker\First Load\NPCS Unlimited Fire Bursts]
+Type = Gameshark
+Activation = EndFrame
+Description = Remove bullet bursts limits for NPCS.
+301a0e45 FF
+301a1045 FF
+301a1245 FF
+301a1445 FF
+301a1645 FF
+301a1845 FF
+301a1a45 FF
+301a1c45 FF
+301a1e45 FF
+301a2045 FF
+301a2245 FF
+301a2445 FF
+301a2645 FF
+301a2845 FF
+301a2a45 FF
+301a2c45 FF
+301a2e45 FF
+301a3045 FF
+301a3245 FF
+301a3445 FF
+301a3645 FF
+301a3845 FF
+301a3a45 FF
+301a3c45 FF
+301a3e45 FF
+301a4045 FF
+301a4245 FF
+301a4445 FF
+301a4645 FF
+301a4845 FF
+301a4a45 FF
+
+[Base Bunker\Retry\NPCS Unlimited Fire Bursts]
+Type = Gameshark
+Activation = EndFrame
+Description = Remove bullet bursts limits for NPCS.
+301a0bd5 FF
+301a0dd5 FF
+301a0fd5 FF
+301a11d5 FF
+301a13d5 FF
+301a15d5 FF
+301a17d5 FF
+301a19d5 FF
+301a1bd5 FF
+301a1dd5 FF
+301a1fd5 FF
+301a21d5 FF
+301a23d5 FF
+301a25d5 FF
+301a27d5 FF
+301a29d5 FF
+301a2bd5 FF
+301a2dd5 FF
+301a2fd5 FF
+301a31d5 FF
+301a33d5 FF
+301a35d5 FF
+301a37d5 FF
+301a39d5 FF
+301a3bd5 FF
+301a3dd5 FF
+301a3fd5 FF
+301a41d5 FF
+301a43d5 FF
+301a45d5 FF
+301a47d5 FF
