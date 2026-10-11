@@ -1,5 +1,77 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
+[Base Bunker\First Load\NPCS Unlimited Ammo]
+Type = Gameshark
+Activation = EndFrame
+Description = Give NPCS Unlimited Ammo
+301a0e3d FF
+301a103d FF
+301a123d FF
+301a143d FF
+301a163d FF
+301a183d FF
+301a1a3d FF
+301a1c3d FF
+301a1e3d FF
+301a203d FF
+301a223d FF
+301a243d FF
+301a263d FF
+301a283d FF
+301a2a3d FF
+301a2c3d FF
+301a2e3d FF
+301a303d FF
+301a323d FF
+301a343d FF
+301a363d FF
+301a383d FF
+301a3a3d FF
+301a3c3d FF
+301a3e3d FF
+301a403d FF
+301a423d FF
+301a443d FF
+301a463d FF
+301a483d FF
+301a4a3d FF
+
+[Base Bunker\Retry\NPCS Unlimited Ammo]
+Type = Gameshark
+Activation = EndFrame
+Description = Give NPCS Unlimited Ammo
+301a0bcd FF
+301a0dcd FF
+301a0fcd FF
+301a11cd FF
+301a13cd FF
+301a15cd FF
+301a17cd FF
+301a19cd FF
+301a1bcd FF
+301a1dcd FF
+301a1fcd FF
+301a21cd FF
+301a23cd FF
+301a25cd FF
+301a27cd FF
+301a29cd FF
+301a2bcd FF
+301a2dcd FF
+301a2fcd FF
+301a31cd FF
+301a33cd FF
+301a35cd FF
+301a37cd FF
+301a39cd FF
+301a3bcd FF
+301a3dcd FF
+301a3fcd FF
+301a41cd FF
+301a43cd FF
+301a45cd FF
+301a47cd FF
+
 [Base Bunker\First Load\NPC Rapid Fire]
 Type = Gameshark
 Activation = EndFrame
