@@ -164,6 +164,11 @@ C0116474 0007
 		30195b38 00 
 		30195b2d FF 
 		30195b25 FF 
+		90198784 FFFFFFFF 
+		301987ac 00 
+		301987a1 FF 
+		30198799 FF 
+		
 	00000000 FFFF
 ;retry
 	C01164A7 6800
@@ -315,6 +320,10 @@ C0116474 0007
 		30195630 00 
 		30195625 FF 
 		3019561d FF  
+		9019827c FFFFFFFF 
+		301982a4 00 
+		30198299 FF 
+		30198291 FF 
 	00000000 FFFF
 00000000 FFFF
 
@@ -362,6 +371,7 @@ C0116474 0007
 		30195725 FF
 		30195925 FF
 		30195b25 FF
+		30198799 FF 
 	00000000 FFFF
 ;retry
 	C01164A7 6800
@@ -402,6 +412,7 @@ C0116474 0007
 		3019521d FF
 		3019541d FF
 		3019561d FF
+		30198291 FF 
 	00000000 FFFF
 00000000 FFFF
 
@@ -446,6 +457,7 @@ Description = Give NPCS unlimited ammo.
 30195725 FF
 30195925 FF
 30195b25 FF
+30198799 FF 
 
 [Rhoemer's Base\Retry\NPC Unlimited Ammo]
 Type = Gameshark
@@ -488,6 +500,7 @@ Description = Give NPCS unlimited ammo.
 3019521d FF
 3019541d FF
 3019561d FF
+30198291 FF 
 
 [Rhoemer's Base\NPC Unlimited Bullet Burst]
 Type = Gameshark
@@ -531,6 +544,7 @@ C0116474 0007
 		3019572d FF
 		3019592d FF
 		30195b2d FF
+		301987a1 FF 
 	00000000 FFFF
 ;retry
 	C01164A7 6800
@@ -569,6 +583,7 @@ C0116474 0007
 		30195225 FF
 		30195425 FF
 		30195625 FF
+		30198299 FF 
 	00000000 FFFF
 00000000 FFFF
 
@@ -611,6 +626,7 @@ Description = Let NPCS shoot as many bullets as possible.
 3019572d FF
 3019592d FF
 30195b2d FF
+301987a1 FF 
 
 [Rhoemer's Base\Retry\NPC Unlimited Bullet Burst]
 Type = Gameshark
@@ -651,6 +667,7 @@ Description = Let NPCS shoot as many bullets as possible.
 30195225 FF
 30195425 FF
 30195625 FF
+30198299 FF 
 
 
 [Rhoemer's Base\NPC No Fire Cooldown]
@@ -697,6 +714,7 @@ C0116474 0007
 		30195738 00
 		30195938 00
 		30195b38 00
+		301987ac 00 
 	00000000 FFFF
 ;retry
 	C01164A7 6800
@@ -737,6 +755,7 @@ C0116474 0007
 		30195230 00
 		30195430 00
 		30195630 00
+		301982a4 00 
 	00000000 FFFF
 00000000 FFFF
 
@@ -781,6 +800,7 @@ Description = Remove attack cooldowns from npcs.
 30195738 00
 30195938 00
 30195b38 00
+301987ac 00 
 
 [Rhoemer's Base\Retry\NPC No Fire Cooldown]
 Type = Gameshark
@@ -823,6 +843,7 @@ Description = Remove attack cooldowns from npcs.
 30195230 00
 30195430 00
 30195630 00
+301982a4 00 
 
 
 [Rhoemer's Base\NPC Rapid Fire]
@@ -869,6 +890,7 @@ C0116474 0007
 		90195710 FFFFFFFF
 		90195910 FFFFFFFF
 		90195b10 FFFFFFFF
+		90198784 FFFFFFFF 
 	00000000 FFFF
 ;retry
 	C01164A7 6800
@@ -909,6 +931,7 @@ C0116474 0007
 		90195208 FFFFFFFF
 		90195408 FFFFFFFF
 		90195608 FFFFFFFF
+		9019827c FFFFFFFF 
 	00000000 FFFF
 00000000 FFFF
 
@@ -953,6 +976,7 @@ Description = NPCS can fire as fast as possible
 90195710 FFFFFFFF
 90195910 FFFFFFFF
 90195b10 FFFFFFFF
+90198784 FFFFFFFF 
 
 [Rhoemer's Base\Retry\NPC Rapid Fire]
 Type = Gameshark
@@ -995,6 +1019,7 @@ Description = NPCS can fire as fast as possible
 90195208 FFFFFFFF
 90195408 FFFFFFFF
 90195608 FFFFFFFF
+9019827c FFFFFFFF 
 
 [Rhoemer's Base\NPC Replace PK102 With Silenced 9MM]
 Type = Gameshark
