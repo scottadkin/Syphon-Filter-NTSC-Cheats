@@ -1,4 +1,14 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
+
+[Rhoemer's Base\Force Stealth NPC Spawn Logic]
+Type = Gameshark
+Activation = EndFrame
+Description = NPCs will spawn as if the level hasn't been alerted.
+;player has not been seen by light
+301169FC 00
+;player has been seen by NPC
+30116A95 01
+
 [Rhoemer's Base\Cheating NPCs]
 Type = Gameshark
 Activation = EndFrame
