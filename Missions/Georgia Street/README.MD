@@ -33,6 +33,57 @@ ClassID (22 bytes data, offset 0)	Item
 - 0x3B	Lights near security switch elevator
 
 
+## NPC last fire offsets
+```
+Pattern used to find offsets: "00 08 00 00 00 00 00 00 xx xx xx xx 60 09 xx xx 00 00 xx xx 64 00 00 00 xx 00 xx xx 00 00 00 00 xx 00 00 FF 00 00 05"
+
+0x18df48 
+0x18e148 
+0x18e348 
+0x18e548 
+0x18e748 
+0x18eb48 
+0x18ed48 
+0x18f348 
+0x18f548 
+0x18f748 
+0x18f948 
+0x18fd48 
+0x192114 
+0x192314 
+0x192514 
+0x192714 
+0x192914 
+0x192b14 
+0x192d14 
+0x192f14 
+0x193114 
+0x193314 
+0x193514 
+0x193714 
+0x193914 
+0x193b14 
+
+Pattern used to find offsets:
+"01 08 00 00 00 00 00 00 xx xx xx xx 60 09 FF FF 00 00 xx 08 64 00 00 00 xx 00 xx xx 00 00 00 00 xx 00 00 FF"
+0x18ef48 
+0x18f148 
+0x18fb48 
+0x190148 
+
+Pattern used to find offets:
+"20 00 00 00 xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx 00 10 00 00 00 00 00 00"
+0x18b000 
+0x18b200 
+0x18b400 
+0x18b600 
+0x18b800 
+
+
+
+```
+
+
 ## HIGH SPAWN AREA AT START	x3980,z2842,y7366
 
 ## Crates
