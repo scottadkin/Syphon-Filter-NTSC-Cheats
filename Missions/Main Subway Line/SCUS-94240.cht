@@ -1,5 +1,66 @@
 ; CHTDB: ; [ Syphon Filter (USA, v1.0) (1999) (989 Studios) {SCUS-94240} <syphonfa> ]
 
+[Main Subway Line\Cheating NPCS]
+Type = Gameshark
+Activation = EndFrame
+Description = NPCs have rapid weapon fire, unlimited ammo, unlimited fire bursts, and no attack cooldowns.
+C0116474 0002 
+; first load 
+C01164a7 7000 
+901bd058 FFFFFFFF 
+301bd080 00 
+301bd075 FF 
+301bd06d FF 
+901bd258 FFFFFFFF 
+301bd280 00 
+301bd275 FF 
+301bd26d FF 
+901bd458 FFFFFFFF 
+301bd480 00 
+301bd475 FF 
+301bd46d FF 
+901bd658 FFFFFFFF 
+301bd680 00 
+301bd675 FF 
+301bd66d FF 
+901bd858 FFFFFFFF 
+301bd880 00 
+301bd875 FF 
+301bd86d FF 
+901bf824 FFFFFFFF 
+301bf84c 00 
+301bf841 FF 
+301bf839 FF 
+00000000 FFFF 
+; retry 
+C01164a7 3800 
+901bc9e4 FFFFFFFF 
+301bca0c 00 
+301bca01 FF 
+301bc9f9 FF 
+901bcbe4 FFFFFFFF 
+301bcc0c 00 
+301bcc01 FF 
+301bcbf9 FF 
+901bcde4 FFFFFFFF 
+301bce0c 00 
+301bce01 FF 
+301bcdf9 FF 
+901bcfe4 FFFFFFFF 
+301bd00c 00 
+301bd001 FF 
+301bcff9 FF 
+901bd1e4 FFFFFFFF 
+301bd20c 00 
+301bd201 FF 
+301bd1f9 FF 
+901bf1b0 FFFFFFFF 
+301bf1d8 00 
+301bf1cd FF 
+301bf1c5 FF 
+00000000 FFFF 
+00000000 FFFF 
+
 [Main Subway Line Give NPCS M79 SCRIPT TEST]
 Type = Gameshark
 Activation = EndFrame
