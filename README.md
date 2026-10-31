@@ -15,6 +15,12 @@
 
 **/One Hit KO/SCUS-94240.cht**
 
+## Cheating NPCS
+- Removes fire rate limit for weapons.
+- Removes bullet burts limits.
+- Gives unlimited ammo.
+- Removes attack cooldowns.
+
 
 ## v2.0 Instant Max Danger
 - In this version of AI max danger the AI will cause damage to you regardless if you are moving or not, if they can see you they will damage you.
@@ -362,17 +368,25 @@ another was 22B6C??
 
 Possible pattern targets for memory scanning(last shot fired is byte 0)
 
-`-4-3-2-1+0+1+2+3+4`
-`0 8 0 0 0 0 0 0 0`
+```
+-4-3-2-1+0+1+2+3+4
+0 8 0 0 0 0 0 0 0
+```
 
-`+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f`
-`0 0 0 0 X X X X X X X X 0 0 X X`
+```
++0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f
+`0 0 0 0 X X X X X X X X 0 0 X X
+```
 
-`+10+11+12+13+14`
-`64 0 0 0 1E 0 X X`
+```
++10+11+12+13+14
+64 0 0 0 1E 0 X X
+```
 
-`-4-3-2-1+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f+10+11+12+13+14`
-`0 8 0 0 0 0 0 0 X X X X X X X X 0 0 X X 64 0 0 0 1E 0 X X`
+```
+-4-3-2-1+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f+10+11+12+13+14
+0 8 0 0 0 0 0 0 X X X X X X X X 0 0 X X 64 0 0 0 1E 0 X X
+```
 
 ```00 08 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 ?? ?? 64 ?? ?? ?? 1E 00 ?? ??```
 
