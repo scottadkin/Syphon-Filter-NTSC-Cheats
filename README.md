@@ -1,6 +1,7 @@
 # Syphon Filter NTSC Cheats
 
 ## Main Cheat File **SCUS-94240.cht**
+- Cheating NPCS
 - Instant AI Max Danger.
 - One Hit KO All Levels.
 - One Hit KO individual missions.
@@ -17,6 +18,12 @@
 
 ## v2.0 Instant Max Danger
 - In this version of AI max danger the AI will cause damage to you regardless if you are moving or not, if they can see you they will damage you.
+
+## v2.2 Instant Max Danger
+- In this version of AI max danger the AI was a test version that an additional byte is changed, which I thought made npcs more accurate which wasn't exactly true.
+
+## V2.3 Instant Max Danger
+- Similar to version 2.2 but instead of one byte two bytes are changed to the value of 01FF, which seems to make the npcs a little faster to shoot you, if you set 01 to over hex 80 it can make the NPCS shoot slower.
 
 **Notes**
 Last Seen Timestamps Offsets(4bytes):
@@ -266,11 +273,11 @@ Memory offset +01164A8
 ## NPC Non Respawning Data(XXX.FOG -> XXX.BIN)
 - Data in XXX.BIN only used after failing mission one time, otherwise a duplicate? version of data is used at an earlier offset in the mission .FOG archive.
 - Data Objects appear to be begin with split via two bytes of 0xCA 0xCA
-xx xx xx xx xx xx xx xx xx xx xx xx WeaponId
+`xx xx xx xx xx xx xx xx xx xx xx xx WeaponId`
 //Shotgun enemy
-51 23 00 00 00 00 00 00 fe 10 00 00 07 01 00 00 63 00 00 00 50 24 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00
+`51 23 00 00 00 00 00 00 fe 10 00 00 07 01 00 00 63 00 00 00 50 24 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00`
 //.45 enemy
-30 0e 00 00 00 00 00 00 1d f0 ff ff 04 01 00 00 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00
+`30 0e 00 00 00 00 00 00 1d f0 ff ff 04 01 00 00 00 00 00 00 00 00 00 00 ff ff ff ff 00 00 00 00 01 00 01 00 ff ff 64 00 64 00 ff ff 00 00 00 00 00 00`
 
 Setting the byte after the non respawning NPCs weaponID to DEC 81 gives the NPCs flak jackets, but makes them spawn out of sequence to the mission
 
@@ -279,23 +286,23 @@ Setting the byte after the non respawning NPCs weaponID to DEC 81 gives the NPCs
 76 bytes apart?
 after BARLIT.TMD text (3 different sets of same data?)
 100health
-64 00 FF FF 00 00 00 00 00 00 CA CA
+`64 00 FF FF 00 00 00 00 00 00 CA CA`
 150health
-96 00 FF FF 00 00 00 00 00 00 CA CA
+`96 00 FF FF 00 00 00 00 00 00 CA CA`
 -1C from first byte is weapon id
 
 WeaponId to health bytes from subway.fog
 9mm npc
-02 83 00 00 01 00 00 00 40 0B 00 00 FF FF FF FF 
-00 00 00 00 01 00 01 00 FF FF 64 00 64 00 FF FF 
-00 00 00 00 00 00 CA CA
+`02 83 00 00 01 00 00 00 40 0B 00 00 FF FF FF FF`
+`00 00 00 00 01 00 01 00 FF FF 64 00 64 00 FF FF`
+`00 00 00 00 00 00 CA CA`
 
 
 ? grenade /9mm bank roof guy?
 weaponID -4 bytes
-13 1A 00 00 02 C1 00 00 03 00 00 00 78 12 00 00 
-FF FF FF FF 00 00 00 00 01 00 01 00 FF FF 64 00 
-64 00 FF FF 00 00 00 00 00 00 CA CA 
+`13 1A 00 00 02 C1 00 00 03 00 00 00 78 12 00 00`
+`FF FF FF FF 00 00 00 00 01 00 01 00 FF FF 64 00` 
+`64 00 FF FF 00 00 00 00 00 00 CA CA` 
 
 
 
@@ -355,17 +362,17 @@ another was 22B6C??
 
 Possible pattern targets for memory scanning(last shot fired is byte 0)
 
--4-3-2-1+0+1+2+3+4
-0 8 0 0 0 0 0 0 0
+`-4-3-2-1+0+1+2+3+4`
+`0 8 0 0 0 0 0 0 0`
 
-+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f
-0 0 0 0 X X X X X X X X 0 0 X X
+`+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f`
+`0 0 0 0 X X X X X X X X 0 0 X X`
 
-+10+11+12+13+14
-64 0 0 0 1E 0 X X
+`+10+11+12+13+14`
+`64 0 0 0 1E 0 X X`
 
--4-3-2-1+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f+10+11+12+13+14
-0 8 0 0 0 0 0 0 X X X X X X X X 0 0 X X 64 0 0 0 1E 0 X X
+`-4-3-2-1+0+1+2+3+4+5+6+7+8+9+a+b+c+d+e+f+10+11+12+13+14`
+`0 8 0 0 0 0 0 0 X X X X X X X X 0 0 X X 64 0 0 0 1E 0 X X`
 
 ```00 08 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 ?? ?? 64 ?? ?? ?? 1E 00 ?? ??```
 
@@ -375,24 +382,24 @@ Possible pattern targets for memory scanning(last shot fired is byte 0)
 - 0(9th byte) = Not Taken, 32(0x20) = Taken. If set back to 0 you can retake the item if you return to it.
 - Following 2 bytes offset to data? always 256 bytes apart //wrong
 - the 2nd byte is item index/order? DC, DD, DA
-m79 crate not taken 00 00 00 00 06 00 0B 00 00 10 49 01 D9 00 00 00
-m79 crate taken bytes: 00 00 00 00 06 00 0B 00 20 10 49 01 D9 00 00 00
+m79 crate not taken `00 00 00 00 06 00 0B 00 00 10 49 01 D9 00 00 00`
+m79 crate taken bytes: `00 00 00 00 06 00 0B 00 20 10 49 01 D9 00 00 00`
 
 Geogria Street Bank
-m16 crate not taken 00 00 00 00 06 00 0B 00 00 09 51 01 DC 00 00 00
-m16 crate taken 00 00 00 00 06 00 0B 00 20 09 51 01 DC 00 00 00
+m16 crate not taken `00 00 00 00 06 00 0B 00 00 09 51 01 DC 00 00 00`
+m16 crate taken `00 00 00 00 06 00 0B 00 20 09 51 01 DC 00 00 00`
 
 Geogria Street Bank
-grenades crate not taken 00 00 00 00 06 00 0B 00 00 13 53 01 DA 00 00 00
-grenades crate taken 00 00 00 00 06 00 0B 00 20 13 53 01 DA 00 00 00
+grenades crate not taken `00 00 00 00 06 00 0B 00 00 13 53 01 DA 00 00 00`
+grenades crate taken `00 00 00 00 06 00 0B 00 20 13 53 01 DA 00 00 00`
 
 Georgia Street Bank
-Flak Jacket not taken 00 00 00 00 06 00 0B 00 00 80 52 01 DD 00 00 00
-Flak Jacket taken 00 00 00 00 06 00 0B 00 20 80 52 01 DD 00 00 00
+Flak Jacket not taken `00 00 00 00 06 00 0B 00 00 80 52 01 DD 00 00 00`
+Flak Jacket taken `00 00 00 00 06 00 0B 00 20 80 52 01 DD 00 00 00`
 
 Georgia Street Bar
-Shotgun not taken 00 00 00 00 06 96 07 00 00 07 48 01 DB 00 00 00
-Shotgun taken 00 00 00 00 06 96 07 00 20 07 48 01 DB 00 00 00
+Shotgun not taken `00 00 00 00 06 96 07 00 00 07 48 01 DB 00 00 00`
+Shotgun taken `00 00 00 00 06 96 07 00 20 07 48 01 DB 00 00 00`
 
 ## Random tests
 ```
